@@ -1,0 +1,3788 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Magic Fields v2.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-01-18 09:55:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: MF_thumb.php:29
+#: MF_thumb.php:94
+#@ default
+msgid "Could not read image size"
+msgstr ""
+
+#: MF_thumb.php:61
+#: MF_thumb.php:64
+#: MF_thumb.php:70
+#: MF_thumb.php:130
+#: MF_thumb.php:133
+#: MF_thumb.php:139
+#@ default
+msgid "Resize path invalid"
+msgstr ""
+
+#: admin/mf_ajax_call.php:39
+#@ magic_fields
+msgid "The Type(name) of Post type exist,Please choose a different type(name)."
+msgstr ""
+
+#: admin/mf_ajax_call.php:56
+#@ magic_fields
+msgid "The name of Group exist in this post type, Please choose a different name."
+msgstr ""
+
+#: admin/mf_ajax_call.php:72
+#@ magic_fields
+msgid "The name of Field exist in this post type, Please choose a different name."
+msgstr ""
+
+#: admin/mf_ajax_call.php:85
+#@ magic_fields
+msgid "The type(name) of custom taxonomy exist, Please choose a different type (name) ."
+msgstr ""
+
+#: admin/mf_custom_fields.php:22
+#@ magic_fields
+msgid "Base field"
+msgstr ""
+
+#: admin/mf_custom_fields.php:44
+#: admin/mf_tiny_mce_langs.php:100
+#: admin/mf_tiny_mce_langs.php:366
+#@ magic_fields
+#@ default
+msgid "Preview"
+msgstr ""
+
+#: admin/mf_custom_fields.php:99
+#@ magic_fields
+msgid "Export"
+msgstr ""
+
+#: admin/mf_custom_fields.php:108
+#: admin/mf_custom_fields.php:152
+#: admin/mf_custom_fields.php:200
+#: admin/mf_dashboard.php:68
+#: admin/mf_dashboard.php:130
+#@ magic_fields
+msgid "This action can't be undone, are you sure?"
+msgstr ""
+
+#: admin/mf_custom_fields.php:112
+#@ magic_fields
+msgid "Choose a Post Type"
+msgstr ""
+
+#: admin/mf_custom_fields.php:123
+#@ magic_fields
+msgid "Create a Group"
+msgstr ""
+
+#: admin/mf_custom_fields.php:124
+#@ magic_fields
+msgid "Create a Field"
+msgstr ""
+
+#: admin/mf_custom_fields.php:170
+#: admin/mf_custom_fields.php:178
+#: admin/mf_custom_fields.php:360
+#: admin/mf_custom_group.php:110
+#: admin/mf_custom_taxonomy.php:273
+#: admin/mf_posttype.php:54
+#@ magic_fields
+msgid "Label"
+msgstr ""
+
+#: admin/mf_custom_fields.php:171
+#: admin/mf_custom_fields.php:179
+#: admin/mf_custom_fields.php:371
+#: admin/mf_custom_group.php:120
+#: admin/mf_custom_taxonomy.php:394
+#: admin/mf_custom_taxonomy.php:497
+#: admin/mf_posttype.php:241
+#@ magic_fields
+msgid "Name"
+msgstr ""
+
+#: admin/mf_custom_fields.php:171
+#: admin/mf_custom_fields.php:179
+#@ magic_fields
+msgid "order"
+msgstr ""
+
+#: admin/mf_custom_fields.php:172
+#: admin/mf_custom_fields.php:180
+#: admin/mf_custom_taxonomy.php:293
+#: admin/mf_dashboard.php:33
+#: admin/mf_dashboard.php:40
+#: admin/mf_dashboard.php:98
+#: admin/mf_dashboard.php:105
+#: admin/mf_tiny_mce_langs.php:368
+#@ magic_fields
+#@ default
+msgid "Type"
+msgstr ""
+
+#: admin/mf_custom_fields.php:194
+#: admin/mf_custom_taxonomy.php:470
+#@ magic_fields
+msgid "Edit"
+msgstr ""
+
+#: admin/mf_custom_fields.php:202
+#: field_types/audio_field/audio_field.php:45
+#: field_types/file_field/file_field.php:49
+#: field_types/image_field/image_field.php:102
+#: field_types/image_media_field/image_media_field.php:104
+#@ magic_fields
+msgid "Delete"
+msgstr "Ta bort"
+
+#: admin/mf_custom_fields.php:362
+#@ magic_fields
+msgid "The label of the field"
+msgstr ""
+
+#: admin/mf_custom_fields.php:363
+#: admin/mf_custom_fields.php:375
+#: admin/mf_custom_fields.php:398
+#: admin/mf_custom_group.php:113
+#: admin/mf_custom_group.php:123
+#: admin/mf_custom_taxonomy.php:277
+#: admin/mf_custom_taxonomy.php:297
+#@ magic_fields
+msgid "This Field is required"
+msgstr "Detta fält är obligatoriskt"
+
+#: admin/mf_custom_fields.php:375
+#: admin/mf_custom_group.php:123
+#: admin/mf_custom_taxonomy.php:297
+#: admin/mf_posttype.php:161
+#@ default
+msgid "Only  are accepted lowercase characters,numbers or underscores"
+msgstr ""
+
+#: admin/mf_custom_fields.php:375
+#: admin/mf_custom_group.php:123
+#@ default
+msgid "This Field must have less than 150 characters"
+msgstr ""
+
+#: admin/mf_custom_fields.php:380
+#@ magic_fields
+msgid "Help text"
+msgstr ""
+
+#: admin/mf_custom_fields.php:382
+#@ magic_fields
+msgid "Tell to the user about what is the field"
+msgstr ""
+
+#: admin/mf_custom_fields.php:391
+#@ magic_fields
+msgid "Type of Custom Field"
+msgstr ""
+
+#: admin/mf_custom_fields.php:395
+#@ magic_fields
+msgid "Select the type of custom field"
+msgstr ""
+
+#: admin/mf_custom_fields.php:403
+#@ magic_fields
+msgid "required"
+msgstr ""
+
+#: admin/mf_custom_fields.php:405
+#@ magic_fields
+msgid "this field is required"
+msgstr ""
+
+#: admin/mf_custom_fields.php:413
+#: admin/mf_custom_group.php:130
+#@ magic_fields
+msgid "Can be duplicated"
+msgstr ""
+
+#: admin/mf_custom_fields.php:415
+#@ magic_fields
+msgid "this field is duplicable?"
+msgstr ""
+
+#: admin/mf_custom_fields.php:441
+#@ magic_fields
+msgid "Create Custom Field"
+msgstr ""
+
+#: admin/mf_custom_fields.php:443
+#@ magic_fields
+msgid "Edit Custom Field"
+msgstr ""
+
+#: admin/mf_custom_fields.php:506
+#@ magic_fields
+msgid "label for text(input)"
+msgstr ""
+
+#: admin/mf_custom_fields.php:508
+#@ magic_fields
+msgid "aqui una descripcion"
+msgstr ""
+
+#: admin/mf_custom_fields.php:516
+#@ magic_fields
+msgid "label for checkbox"
+msgstr ""
+
+#: admin/mf_custom_fields.php:519
+#@ magic_fields
+msgid "One description for checkbox"
+msgstr ""
+
+#: admin/mf_custom_fields.php:526
+#@ magic_fields
+msgid "label for select"
+msgstr ""
+
+#: admin/mf_custom_fields.php:529
+#@ magic_fields
+msgid "description for select"
+msgstr ""
+
+#: admin/mf_custom_fields.php:538
+#@ magic_fields
+msgid "Label for textarea"
+msgstr ""
+
+#: admin/mf_custom_fields.php:541
+#@ magic_fields
+msgid "description for textarea"
+msgstr ""
+
+#: admin/mf_custom_group.php:112
+#@ magic_fields
+msgid "The label of the group"
+msgstr ""
+
+#: admin/mf_custom_group.php:132
+#@ magic_fields
+msgid "this group is duplicable?"
+msgstr ""
+
+#: admin/mf_custom_group.php:139
+#@ magic_fields
+msgid "Show as Expanded:"
+msgstr ""
+
+#: admin/mf_custom_group.php:141
+#@ magic_fields
+msgid "Display the full expanded group editing interface instead of the group summary"
+msgstr ""
+
+#: admin/mf_custom_group.php:142
+#@ magic_fields
+msgid "Note: the group can still be collapsed by the user, this just determines the default state on load"
+msgstr ""
+
+#: admin/mf_custom_group.php:159
+#@ magic_fields
+msgid "Create Custom Group"
+msgstr ""
+
+#: admin/mf_custom_group.php:161
+#@ magic_fields
+msgid "Edit Custom Group"
+msgstr ""
+
+#: admin/mf_custom_group.php:192
+#@ magic_fields
+msgid "About group"
+msgstr ""
+
+#: admin/mf_custom_group.php:195
+#@ magic_fields
+msgid "A group allows us to group a series of custom fields and to have a better managing of the custom fields"
+msgstr ""
+
+#: admin/mf_custom_group.php:196
+#@ magic_fields
+msgid "The groups have the great usefulness of which it is possible to duplicate, this is, one creates new instance of the group (with all the custom fields that the group contains)"
+msgstr ""
+
+#: admin/mf_custom_group.php:197
+#@ magic_fields
+msgid "Another characteristic of the duplicated groups is that we them can arrange and have a control of which group we want that it show to be first"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:132
+#@ magic_fields
+msgid "Add Custom Taxonomy"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:134
+#@ default
+msgid "Edit Custom Taxonomy"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:160
+#@ magic_fields
+msgid "Post types"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:174
+#@ magic_fields
+msgid "This Field is required, least one post type"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:196
+#: admin/mf_posttype.php:505
+#: field_types/checkbox_list_field/checkbox_list_field.php:26
+#: field_types/dropdown_field/dropdown_field.php:26
+#: field_types/radiobutton_list_field/radiobutton_list_field.php:26
+#@ magic_fields
+msgid "Options"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:200
+#: admin/mf_custom_taxonomy.php:209
+#: admin/mf_posttype.php:509
+#: admin/mf_posttype.php:519
+#@ magic_fields
+msgid "Advanced Options"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:203
+#: admin/mf_posttype.php:512
+#@ magic_fields
+msgid "Advanced Label"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:232
+#: admin/mf_posttype.php:542
+#@ magic_fields
+msgid "Label Options"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:276
+#@ magic_fields
+msgid "Singular label of the taxonomy."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:283
+#: admin/mf_posttype.php:64
+#@ magic_fields
+msgid "Labels"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:286
+#@ magic_fields
+msgid "A plural descriptive name for the taxonomy marked for translation."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:304
+#: admin/mf_dashboard.php:34
+#: admin/mf_dashboard.php:41
+#: admin/mf_dashboard.php:99
+#: admin/mf_dashboard.php:106
+#: admin/mf_posttype.php:85
+#@ magic_fields
+msgid "Description"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:307
+#@ magic_fields
+msgid "A short descriptive summary of what the custom taxonomy is."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:319
+#: admin/mf_posttype.php:109
+#@ magic_fields
+msgid "Public"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:322
+#@ magic_fields
+msgid "Should this taxonomy be exposed in the admin UI."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:327
+#: admin/mf_posttype.php:231
+#@ magic_fields
+msgid "Show in nav menus"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:330
+#@ magic_fields
+msgid "true makes this taxonomy available for selection in navigation menus."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:335
+#: admin/mf_posttype.php:133
+#@ magic_fields
+msgid "Show UI"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:338
+#@ magic_fields
+msgid "Whether to generate a default UI for managing this taxonomy."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:344
+#@ magic_fields
+msgid "Show tagcloud"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:347
+#@ magic_fields
+msgid "Wether to allow the Tag Cloud widget to use this taxonomy."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:352
+#: admin/mf_posttype.php:167
+#@ magic_fields
+msgid "Hierarchical"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:355
+#@ magic_fields
+msgid "Is this taxonomy hierarchical (have descendants) like categories or not hierarchical like tags."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:360
+#@ magic_fields
+msgid "Update count callback"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:363
+#@ magic_fields
+msgid "A function name that will be called to update the count of an associated $object_type, such as post, is updated."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:368
+#: admin/mf_posttype.php:191
+#@ magic_fields
+msgid "Rewrite"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:371
+#@ magic_fields
+msgid "Set to false to prevent rewrite, Default will use $taxonomy as query var"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:376
+#: admin/mf_posttype.php:199
+#@ magic_fields
+msgid "Rewrite slug"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:379
+#@ magic_fields
+msgid "Prepend posts with this slug - defaults to taxonomy's name"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:384
+#: admin/mf_posttype.php:215
+#@ magic_fields
+msgid "Query var"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:387
+#@ magic_fields
+msgid "False to prevent queries, or string to customize query var. Default will use $taxonomy as query var."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:396
+#: admin/mf_custom_taxonomy.php:531
+#@ magic_fields
+msgid "Categories"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:397
+#@ magic_fields
+msgid "General name for the taxonomy, usually plural."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:403
+#: admin/mf_posttype.php:250
+#@ magic_fields
+msgid "Singular name"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:405
+#@ magic_fields
+msgid "Category"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:406
+#@ magic_fields
+msgid "Name for one object of this taxonomy."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:412
+#: admin/mf_posttype.php:313
+#@ magic_fields
+msgid "Search items"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:414
+#@ magic_fields
+msgid "Search Categories"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:415
+#: admin/mf_posttype.php:316
+#@ magic_fields
+msgid "The search items text."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:416
+#@ magic_fields
+msgid "Search"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:421
+#: admin/mf_custom_taxonomy.php:484
+#: admin/mf_posttype.php:277
+#@ magic_fields
+msgid "Add new item"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:423
+#: admin/mf_posttype.php:279
+#@ magic_fields
+msgid "Add New Post"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:424
+#: admin/mf_custom_taxonomy.php:487
+#: admin/mf_posttype.php:280
+#@ magic_fields
+msgid "The add new item text."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:425
+#: admin/mf_custom_taxonomy.php:488
+#: admin/mf_posttype.php:261
+#@ magic_fields
+msgid "Add New"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:430
+#@ magic_fields
+msgid "Popular items"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:432
+#@ magic_fields
+msgid "Popular Tags"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:433
+#@ magic_fields
+msgid "The popular items text."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:434
+#@ magic_fields
+msgid "Popular"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:439
+#@ magic_fields
+msgid "All items"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:441
+#@ magic_fields
+msgid "All Categories"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:442
+#@ magic_fields
+msgid "The all items text."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:443
+#: admin/mf_posttype.php:268
+#: admin/mf_posttype.php:270
+#@ magic_fields
+msgid "All"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:448
+#@ magic_fields
+msgid "Parent item"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:450
+#@ magic_fields
+msgid "Parent Category"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:451
+#@ magic_fields
+msgid "The parent item text. This string is not used on non-hierarchical taxonomies such as post tags."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:452
+#: admin/mf_custom_taxonomy.php:461
+#: admin/mf_posttype.php:344
+#@ magic_fields
+msgid "Parent"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:457
+#: admin/mf_posttype.php:340
+#@ magic_fields
+msgid "Parent item colon"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:459
+#@ magic_fields
+msgid "Parent Category:"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:460
+#@ magic_fields
+msgid "The same as parent_item, but with colon :"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:466
+#: admin/mf_posttype.php:286
+#@ magic_fields
+msgid "Edit item"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:468
+#@ magic_fields
+msgid "Edit Category"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:469
+#@ magic_fields
+msgid "The edit item text."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:475
+#@ magic_fields
+msgid "Update item"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:477
+#: admin/mf_custom_taxonomy.php:513
+#@ magic_fields
+msgid "Update Category"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:478
+#@ magic_fields
+msgid "The update item text."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:479
+#: admin/mf_custom_taxonomy.php:515
+#: admin/mf_tiny_mce_langs.php:22
+#@ magic_fields
+#@ default
+msgid "Update"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:486
+#@ magic_fields
+msgid "Add New Category"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:493
+#@ magic_fields
+msgid "New item name"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:495
+#@ magic_fields
+msgid "New Category Name"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:496
+#@ magic_fields
+msgid "The new item name text."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:497
+#@ magic_fields
+msgid "New"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:502
+#@ magic_fields
+msgid "Separate items with commas"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:504
+#@ magic_fields
+msgid "Separate tags with commas"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:505
+#@ magic_fields
+msgid "The separate item with commas text used in the taxonomy meta box. This string isn't used on hierarchical taxonomies."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:506
+#@ magic_fields
+msgid "Separate"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:506
+#@ magic_fields
+msgid "with commas"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:511
+#@ magic_fields
+msgid "Add or remove items"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:514
+#@ magic_fields
+msgid "The add or remove items text and used in the meta box when JavaScript is disabled. This string isn't used on hierarchical taxonomies."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:520
+#@ magic_fields
+msgid "Choose from most used"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:522
+#@ magic_fields
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:523
+#@ magic_fields
+msgid "The choose from most used text used in the taxonomy meta box. This string isn't used on hierarchical taxonomies."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:524
+#@ magic_fields
+msgid "Choose from the most used"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:529
+#: admin/mf_dashboard.php:32
+#: admin/mf_dashboard.php:39
+#: admin/mf_dashboard.php:97
+#: admin/mf_dashboard.php:104
+#: admin/mf_posttype.php:349
+#@ magic_fields
+msgid "Menu name"
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:532
+#@ magic_fields
+msgid "The menu name text. This string is the name to give menu items. Defaults to value of name."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:542
+#@ magic_fields
+msgid "Make suggestions for the labels using the label of the custom taxonomy"
+msgstr ""
+
+#: admin/mf_dashboard.php:25
+#@ magic_fields
+msgid "Magic Fields"
+msgstr ""
+
+#: admin/mf_dashboard.php:26
+#@ magic_fields
+msgid "Post Types"
+msgstr ""
+
+#: admin/mf_dashboard.php:26
+#@ magic_fields
+msgid "Add new Post Type"
+msgstr ""
+
+#: admin/mf_dashboard.php:32
+#: admin/mf_dashboard.php:39
+#: admin/mf_dashboard.php:97
+#: admin/mf_dashboard.php:104
+#@ magic_fields
+msgid "Label "
+msgstr ""
+
+#: admin/mf_dashboard.php:83
+#@ magic_fields
+msgid " Custom Taxonomy"
+msgstr ""
+
+#: admin/mf_dashboard.php:83
+#@ magic_fields
+msgid "Add new Custom Taxonomy"
+msgstr ""
+
+#: admin/mf_post.php:171
+#@ magic_fields
+msgid "What's this?"
+msgstr "Vad är detta?"
+
+#: admin/mf_post.php:202
+#: admin/mf_posttype.php:58
+#: admin/mf_posttype.php:78
+#@ magic_fields
+msgid "This field is required"
+msgstr "Detta fält är obligatoriskt"
+
+#: admin/mf_post.php:401
+#@ magic_fields
+msgid "Sorry, some required fields are missing. Please provide values for any highlighted fields and try again."
+msgstr "Det finns obligatoriska fält som inte är ifyllda."
+
+#: admin/mf_post.php:402
+#@ magic_fields
+msgid "Insert into field"
+msgstr "Använd bild"
+
+#: admin/mf_posttype.php:40
+#@ magic_fields
+msgid "Make suggestions for the labels using the label of the post type"
+msgstr ""
+
+#: admin/mf_posttype.php:57
+#@ magic_fields
+msgid "Singular label of the post type."
+msgstr ""
+
+#: admin/mf_posttype.php:67
+#@ magic_fields
+msgid "Plural label of the post type."
+msgstr ""
+
+#: admin/mf_posttype.php:88
+#@ magic_fields
+msgid "A short descriptive summary of what the post type is."
+msgstr ""
+
+#: admin/mf_posttype.php:112
+#@ magic_fields
+msgid "Meta argument used to define default values for publicly_queriable, show_ui, show_in_nav_menus and exclude_from_search."
+msgstr ""
+
+#: admin/mf_posttype.php:117
+#@ magic_fields
+msgid "Publicly queryable"
+msgstr ""
+
+#: admin/mf_posttype.php:120
+#@ magic_fields
+msgid "Whether post_type queries can be performed from the front end."
+msgstr ""
+
+#: admin/mf_posttype.php:125
+#@ magic_fields
+msgid "Exclude from search"
+msgstr ""
+
+#: admin/mf_posttype.php:128
+#@ magic_fields
+msgid "Whether to exclude posts with this post type from search results."
+msgstr ""
+
+#: admin/mf_posttype.php:136
+#@ magic_fields
+msgid "Whether to generate a default UI for managing this post type. Note that _built-in post types, such as post and page, are intentionally set to false."
+msgstr ""
+
+#: admin/mf_posttype.php:141
+#@ magic_fields
+msgid "Show in menu"
+msgstr ""
+
+#: admin/mf_posttype.php:144
+#@ magic_fields
+msgid "Whether to show the post type in the admin menu and where to show that menu. Note that show_ui must be true."
+msgstr ""
+
+#: admin/mf_posttype.php:149
+#@ magic_fields
+msgid "Menu position"
+msgstr ""
+
+#: admin/mf_posttype.php:152
+#@ magic_fields
+msgid "The position in the menu order the post type should appear."
+msgstr ""
+
+#: admin/mf_posttype.php:157
+#@ magic_fields
+msgid "Capability type"
+msgstr ""
+
+#: admin/mf_posttype.php:160
+#@ magic_fields
+msgid "Capability type (post,page) in Singular"
+msgstr ""
+
+#: admin/mf_posttype.php:161
+#@ default
+msgid "This Field must have less than 40 characters"
+msgstr ""
+
+#: admin/mf_posttype.php:170
+#@ magic_fields
+msgid "Whether the post type is hierarchical. Allows Parent to be specified"
+msgstr ""
+
+#: admin/mf_posttype.php:175
+#@ magic_fields
+msgid "Has archive"
+msgstr ""
+
+#: admin/mf_posttype.php:178
+#@ magic_fields
+msgid "Enables post type archives. Will use string as archive slug. Will generate the proper rewrite rules if rewrite is enabled."
+msgstr ""
+
+#: admin/mf_posttype.php:183
+#@ magic_fields
+msgid "Archive slug"
+msgstr ""
+
+#: admin/mf_posttype.php:186
+#@ magic_fields
+msgid "Archive slug. The archive for the post type can be viewed at this slug. Has archives must be checked for this to work."
+msgstr ""
+
+#: admin/mf_posttype.php:194
+#@ magic_fields
+msgid "Rewrite permalinks with this format. False to prevent rewrite."
+msgstr ""
+
+#: admin/mf_posttype.php:202
+#@ magic_fields
+msgid "Prepend posts with this slug - defaults to post type's name"
+msgstr ""
+
+#: admin/mf_posttype.php:218
+#@ magic_fields
+msgid "False to prevent queries, or string value of the query var to use for this post type."
+msgstr ""
+
+#: admin/mf_posttype.php:223
+#@ magic_fields
+msgid "Can export"
+msgstr ""
+
+#: admin/mf_posttype.php:226
+#@ magic_fields
+msgid "Can this post_type be exported."
+msgstr ""
+
+#: admin/mf_posttype.php:234
+#@ magic_fields
+msgid "Whether post_type is available for selection in navigation menus."
+msgstr ""
+
+#: admin/mf_posttype.php:243
+#@ magic_fields
+msgid "Posts"
+msgstr ""
+
+#: admin/mf_posttype.php:244
+#: admin/mf_posttype.php:262
+#: admin/mf_posttype.php:289
+#@ magic_fields
+msgid "General name for the post type, usually plural."
+msgstr ""
+
+#: admin/mf_posttype.php:252
+#: admin/mf_posttype.php:351
+#@ magic_fields
+msgid "Post"
+msgstr ""
+
+#: admin/mf_posttype.php:253
+#@ magic_fields
+msgid "Name for one object of this post type. Defaults to value of name."
+msgstr ""
+
+#: admin/mf_posttype.php:259
+#@ magic_fields
+msgid "Add new"
+msgstr ""
+
+#: admin/mf_posttype.php:271
+#@ magic_fields
+msgid "The all items text used in the menu. Default is the Name label."
+msgstr ""
+
+#: admin/mf_posttype.php:288
+#@ magic_fields
+msgid "Edit Post"
+msgstr ""
+
+#: admin/mf_posttype.php:295
+#@ magic_fields
+msgid "New item"
+msgstr ""
+
+#: admin/mf_posttype.php:297
+#@ magic_fields
+msgid "New Post"
+msgstr ""
+
+#: admin/mf_posttype.php:298
+#@ magic_fields
+msgid "The new item text."
+msgstr ""
+
+#: admin/mf_posttype.php:304
+#@ magic_fields
+msgid "View item"
+msgstr ""
+
+#: admin/mf_posttype.php:306
+#@ magic_fields
+msgid "View Post"
+msgstr ""
+
+#: admin/mf_posttype.php:307
+#@ magic_fields
+msgid "The view item text."
+msgstr ""
+
+#: admin/mf_posttype.php:315
+#@ magic_fields
+msgid "Search Posts"
+msgstr ""
+
+#: admin/mf_posttype.php:322
+#@ magic_fields
+msgid "Not found"
+msgstr ""
+
+#: admin/mf_posttype.php:324
+#, php-format
+#@ magic_fields
+msgid "No %s found"
+msgstr ""
+
+#: admin/mf_posttype.php:325
+#@ magic_fields
+msgid "The not found text. Default is No posts found/No pages found"
+msgstr ""
+
+#: admin/mf_posttype.php:331
+#@ magic_fields
+msgid "Not found in trash"
+msgstr ""
+
+#: admin/mf_posttype.php:333
+#@ magic_fields
+msgid "No posts found in Trash"
+msgstr ""
+
+#: admin/mf_posttype.php:334
+#@ magic_fields
+msgid "the not found in trash text."
+msgstr ""
+
+#: admin/mf_posttype.php:342
+#@ magic_fields
+msgid "Parent Item:"
+msgstr ""
+
+#: admin/mf_posttype.php:343
+#@ magic_fields
+msgid "The same as parent_item, but with colon:"
+msgstr ""
+
+#: admin/mf_posttype.php:422
+#@ magic_fields
+msgid "Add Post Type"
+msgstr ""
+
+#: admin/mf_posttype.php:424
+#@ default
+msgid "Edit Post Type"
+msgstr ""
+
+#: admin/mf_posttype.php:453
+#@ magic_fields
+msgid "Supports"
+msgstr ""
+
+#: admin/mf_posttype.php:471
+#@ magic_fields
+msgid "Taxonomies"
+msgstr ""
+
+#: admin/mf_posttype.php:891
+#: admin/mf_posttype.php:916
+#@ magic_fields
+msgid "Import a Post Type"
+msgstr ""
+
+#: admin/mf_posttype.php:897
+#: admin/mf_upload.php:168
+#@ default
+#@ magic_fields
+msgid "File"
+msgstr "Fil"
+
+#: admin/mf_posttype.php:899
+#@ magic_fields
+msgid "File with information about post type"
+msgstr ""
+
+#: admin/mf_posttype.php:903
+#@ magic_fields
+msgid "Overwrite"
+msgstr ""
+
+#: admin/mf_posttype.php:907
+#@ magic_fields
+msgid "Overwrite existing post type?"
+msgstr ""
+
+#: admin/mf_posttype.php:911
+#: admin/mf_tiny_mce_langs.php:23
+#@ magic_fields
+#@ default
+msgid "Cancel"
+msgstr ""
+
+#: admin/mf_posttype.php:912
+#: main.php:127
+#@ magic_fields
+msgid "Import"
+msgstr ""
+
+#: admin/mf_posttype.php:919
+#@ magic_fields
+msgid "This functionality allows us to import all the information of a post type"
+msgstr ""
+
+#: admin/mf_posttype.php:920
+#@ magic_fields
+msgid "Also they are imported the groups, custom fields and custom taxonomies that contains the post type"
+msgstr ""
+
+#: admin/mf_posttype.php:921
+#@ magic_fields
+msgid "For defualt to create a new post type, if it exists a post type with the same name was added with a prefix to be able to differentiate it, if the option  overwrite is checked the system overwrite the information of post type and  It will add the custom groups and custom fields to the already existing ones, If some custom group or custom field already this registered It will be overwrite"
+msgstr ""
+
+#: admin/mf_posttype.php:947
+#@ magic_fields
+msgid "Error uploading file!"
+msgstr ""
+
+#: admin/mf_settings.php:20
+#: main.php:117
+#@ magic_fields
+msgid "Magic Fields Settings"
+msgstr ""
+
+#: admin/mf_settings.php:49
+#@ magic_fields
+msgid "General settings of fields"
+msgstr ""
+
+#: admin/mf_settings.php:59
+#@ magic_fields
+msgid "Extra"
+msgstr ""
+
+#: admin/mf_settings.php:69
+#@ magic_fields
+msgid "Uninstall Magic Fields"
+msgstr ""
+
+#: admin/mf_settings.php:72
+#@ magic_fields
+msgid "Type <strong>uninstall</strong> into the textbox, click <strong>Update Options</strong>, and all the tables created by this plugin will be deleted"
+msgstr ""
+
+#: admin/mf_settings.php:95
+#@ magic_fields
+msgid "Hide Visual Editor (multiline)"
+msgstr ""
+
+#: admin/mf_settings.php:98
+#@ magic_fields
+msgid "Hide All Visual Editor (multiline)"
+msgstr ""
+
+#: admin/mf_settings.php:103
+#@ magic_fields
+msgid "Do not remove tags TinyMCE. (multiline)"
+msgstr ""
+
+#: admin/mf_settings.php:106
+#@ magic_fields
+msgid "Stop removing the <p> and <br /> tags when saving and show them in the HTML editor"
+msgstr ""
+
+#: admin/mf_settings.php:111
+#@ default
+msgid "Hide Wordpress Post panel"
+msgstr ""
+
+#: admin/mf_settings.php:114
+#@ magic_fields
+msgid "Hide the post panel"
+msgstr ""
+
+#: admin/mf_settings.php:119
+#@ default
+msgid "Hide Wordpress Page panel"
+msgstr ""
+
+#: admin/mf_settings.php:122
+#@ magic_fields
+msgid "Hide the page panel"
+msgstr ""
+
+#: admin/mf_settings.php:129
+#@ magic_fields
+msgid "Clear cache"
+msgstr ""
+
+#: admin/mf_settings.php:132
+#@ magic_fields
+msgid "delete all image thumbs"
+msgstr ""
+
+#: admin/mf_upload.php:18
+#@ magic_fields
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: admin/mf_upload.php:64
+#: admin/mf_upload.php:99
+#@ magic_fields
+msgid "Upload Unsuccessful"
+msgstr "Uppladdningen lyckades"
+
+#: admin/mf_upload.php:71
+#@ magic_fields
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: admin/mf_upload.php:90
+#@ magic_fields
+msgid "Successful upload"
+msgstr "Uppladdningen lyckades"
+
+#: admin/mf_upload.php:94
+#@ magic_fields
+msgid "Failed to upload the file!"
+msgstr ""
+
+#: admin/mf_upload.php:97
+#@ magic_fields
+msgid "The uploaded file exceeds the maximum upload limit!"
+msgstr ""
+
+#: field_types/audio_field/audio_field.php:23
+#@ magic_fields
+msgid "Audio upload with player"
+msgstr ""
+
+#: field_types/audio_field/audio_field.php:44
+#@ magic_fields
+msgid "Download"
+msgstr ""
+
+#: field_types/checkbox_field/checkbox_field.php:15
+#@ magic_fields
+msgid "Simple checkbox input"
+msgstr ""
+
+#: field_types/checkbox_list_field/checkbox_list_field.php:15
+#@ magic_fields
+msgid "Checkbox list let a user select ONE or MORE options of a limited number of choices."
+msgstr ""
+
+#: field_types/checkbox_list_field/checkbox_list_field.php:29
+#: field_types/dropdown_field/dropdown_field.php:29
+#: field_types/radiobutton_list_field/radiobutton_list_field.php:29
+#@ magic_fields
+msgid "Separate each option with a newline."
+msgstr ""
+
+#: field_types/checkbox_list_field/checkbox_list_field.php:37
+#: field_types/radiobutton_list_field/radiobutton_list_field.php:37
+#@ magic_fields
+msgid "Deafult value"
+msgstr ""
+
+#: field_types/checkbox_list_field/checkbox_list_field.php:40
+#: field_types/dropdown_field/dropdown_field.php:51
+#: field_types/radiobutton_list_field/radiobutton_list_field.php:40
+#@ magic_fields
+msgid "Separate each value with a newline."
+msgstr ""
+
+#: field_types/color_picker_field/color_picker_field.php:28
+#@ magic_fields
+msgid "Select a color based on a visual rainbow."
+msgstr ""
+
+#: field_types/datepicker_field/datepicker_field.php:30
+#@ magic_fields
+msgid "Elegant and powerful datepicker"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:243
+#: field_types/datepicker_field/datepicker_field.php:53
+#@ default
+#@ magic_fields
+msgid "Format"
+msgstr ""
+
+#: field_types/datepicker_field/datepicker_field.php:58
+#@ magic_fields
+msgid "Format for date"
+msgstr ""
+
+#: field_types/dropdown_field/dropdown_field.php:15
+#@ magic_fields
+msgid "Simple dropdown input"
+msgstr ""
+
+#: field_types/dropdown_field/dropdown_field.php:37
+#@ magic_fields
+msgid "The dropdown can have multiple values"
+msgstr ""
+
+#: field_types/dropdown_field/dropdown_field.php:48
+#@ magic_fields
+msgid "Default value"
+msgstr ""
+
+#: field_types/file_field/file_field.php:23
+#@ magic_fields
+msgid "Simple input file"
+msgstr ""
+
+#: field_types/file_field/file_field.php:48
+#: field_types/image_field/image_field.php:101
+#: field_types/image_media_field/image_media_field.php:103
+#@ magic_fields
+msgid "View"
+msgstr "Visa"
+
+#: field_types/image_field/image_field.php:24
+#@ magic_fields
+msgid "Elegant and powerful upload image with creation of thumbnails"
+msgstr ""
+
+#: field_types/image_field/image_field.php:35
+#: field_types/image_media_field/image_media_field.php:34
+#@ magic_fields
+msgid "Css Class"
+msgstr ""
+
+#: field_types/image_field/image_field.php:46
+#: field_types/image_media_field/image_media_field.php:45
+#@ magic_fields
+msgid "Max height"
+msgstr ""
+
+#: field_types/image_field/image_field.php:57
+#: field_types/image_media_field/image_media_field.php:56
+#@ magic_fields
+msgid "Max Width"
+msgstr ""
+
+#: field_types/image_field/image_field.php:68
+#: field_types/image_media_field/image_media_field.php:67
+#@ magic_fields
+msgid "Custom"
+msgstr ""
+
+#: field_types/image_media_field/image_media_field.php:23
+#@ magic_fields
+msgid "Selects an image of the Media Library of wordpress"
+msgstr ""
+
+#: field_types/image_media_field/image_media_field.php:112
+#@ magic_fields
+msgid "Set Image"
+msgstr "Välj bild"
+
+#: field_types/markdown_editor_field/markdown_editor_field.php:28
+#@ magic_fields
+msgid "A markdown editor"
+msgstr ""
+
+#: field_types/multiline_field/multiline_field.php:22
+#@ magic_fields
+msgid "An additional visual editor"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:499
+#: admin/mf_tiny_mce_langs.php:504
+#: field_types/multiline_field/multiline_field.php:33
+#@ default
+#@ magic_fields
+msgid "Height"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:498
+#: field_types/multiline_field/multiline_field.php:44
+#@ default
+#@ magic_fields
+msgid "Width"
+msgstr ""
+
+#: field_types/multiline_field/multiline_field.php:55
+#@ magic_fields
+msgid "Hide Visual Editor for this field"
+msgstr ""
+
+#: field_types/multiline_field/multiline_field.php:57
+#@ magic_fields
+msgid "If set, Hide Visual Editor for this field"
+msgstr ""
+
+#: field_types/radiobutton_list_field/radiobutton_list_field.php:15
+#@ magic_fields
+msgid "Radio button list that allows the user to choose only one of a predefined set of options."
+msgstr ""
+
+#: field_types/related_type_field/related_type_field.php:15
+#@ magic_fields
+msgid "This field allows to do relations with other post type"
+msgstr ""
+
+#: field_types/related_type_field/related_type_field.php:32
+#@ magic_fields
+msgid "Related Type Panel (Post type)"
+msgstr ""
+
+#: field_types/related_type_field/related_type_field.php:45
+#@ magic_fields
+msgid "Field for order of Related type"
+msgstr ""
+
+#: field_types/related_type_field/related_type_field.php:58
+#@ magic_fields
+msgid "Order of Related type"
+msgstr ""
+
+#: field_types/related_type_field/related_type_field.php:72
+#@ magic_fields
+msgid "Default option (when no related type has been set)"
+msgstr ""
+
+#: field_types/related_type_field/related_type_field.php:94
+#: field_types/term_field/term_field.php:53
+#@ magic_fields
+msgid "-- None --"
+msgstr "-- Inget valt --"
+
+#: field_types/slider_field/slider_field.php:31
+#@ magic_fields
+msgid "The slider allows you to render a slider whose position represents a value in a range you specify."
+msgstr ""
+
+#: field_types/slider_field/slider_field.php:42
+#@ magic_fields
+msgid "Value min"
+msgstr ""
+
+#: field_types/slider_field/slider_field.php:52
+#@ magic_fields
+msgid "Value max"
+msgstr ""
+
+#: field_types/slider_field/slider_field.php:62
+#@ magic_fields
+msgid "Stepping"
+msgstr ""
+
+#: field_types/textbox_field/textbox_field.php:27
+#@ magic_fields
+msgid "Simple Textbox input"
+msgstr ""
+
+#: field_types/textbox_field/textbox_field.php:38
+#@ magic_fields
+msgid "Evaluate Max Length"
+msgstr ""
+
+#: field_types/textbox_field/textbox_field.php:49
+#@ magic_fields
+msgid "Max Length"
+msgstr ""
+
+#: main.php:127
+#@ magic_fields
+msgid "import"
+msgstr ""
+
+#: mf_install.php:148
+#: mf_install.php:153
+#@ magic_fields
+msgid "Magic Fields is not ready yet."
+msgstr ""
+
+#: mf_install.php:148
+#@ magic_fields
+msgid "must create the following folders (and must chmod 777):"
+msgstr ""
+
+#: mf_install.php:153
+#@ magic_fields
+msgid "The following folders must be writable (usually chmod 777 is neccesary):"
+msgstr ""
+
+#: admin/mf_custom_fields.php:373
+#: admin/mf_custom_group.php:122
+#@ magic_fields
+msgid "Used by the system, only lowercase alphanumeric characters and underscore is accepted."
+msgstr ""
+
+#: admin/mf_custom_taxonomy.php:296
+#@ magic_fields
+msgid "Name of the object type for the taxonomy object. Used by the system, name must not contain capital letters or spaces. Once the taxonomy is created, the type cannot be changed."
+msgstr ""
+
+#: admin/mf_post.php:51
+#@ default
+msgid "Template"
+msgstr ""
+
+#: admin/mf_post.php:153
+#: admin/mf_post.php:209
+#@ magic_fields
+msgid "Add Another"
+msgstr "Lägg till"
+
+#: admin/mf_post.php:154
+#: admin/mf_post.php:210
+#@ magic_fields
+msgid "Remove"
+msgstr "Ta bort"
+
+#: admin/mf_post.php:573
+#@ default
+msgid "Page Template"
+msgstr ""
+
+#: admin/mf_post.php:574
+#@ default
+msgid "Default Template"
+msgstr ""
+
+#: admin/mf_posttype.php:74
+#@ magic_fields
+msgid "Type name"
+msgstr ""
+
+#: admin/mf_posttype.php:77
+#@ magic_fields
+msgid "Used by the system, the type must have less than 20 characters, only lowercase alphanumeric characters and undescore is accepted. Once the post type is created, the type name cannot be changed."
+msgstr ""
+
+#: admin/mf_posttype.php:78
+#@ default
+msgid "Only lowercase alphanumeric characters and underscore is accepted"
+msgstr ""
+
+#: admin/mf_posttype.php:78
+#@ default
+msgid "This field must have less than 20 characters"
+msgstr ""
+
+#: admin/mf_posttype.php:95
+#@ magic_fields
+msgid "Quantity"
+msgstr ""
+
+#: admin/mf_posttype.php:98
+#@ magic_fields
+msgid "mark true if you want your post type only has one element."
+msgstr ""
+
+#: admin/mf_posttype.php:207
+#@ default
+msgid "With front"
+msgstr ""
+
+#: admin/mf_posttype.php:210
+#@ magic_fields
+msgid "Should the permastruct be prepended with the front base. (example: if your permalink structure is /blog/, then your links will be: false->/news/, true->/blog/news/)"
+msgstr ""
+
+#: admin/mf_posttype.php:352
+#@ magic_fields
+msgid "The name of menu, usually plural."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:19
+#@ default
+msgid "Do you want to use the WYSIWYG mode for this textarea?"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:20
+#@ default
+msgid "Apply"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:21
+#@ default
+msgid "Insert"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:24
+#@ default
+msgid "Close"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:25
+#@ default
+msgid "Browse"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:26
+#: admin/mf_tiny_mce_langs.php:371
+#@ default
+msgid "Class"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:27
+#@ default
+msgid "-- Not set --"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:28
+#: admin/mf_tiny_mce_langs.php:294
+#@ default
+msgid "Copy/Cut/Paste is not available in Mozilla and Firefox."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:29
+#@ default
+msgid "Currently not supported by your browser, use keyboard shortcuts instead."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:30
+#@ default
+msgid "Sorry, but we have noticed that your popup-blocker has disabled a window that provides application functionality. You will need to disable popup blocking on this site in order to fully utilize this tool."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:31
+#@ default
+msgid "ERROR: Invalid values entered, these are marked in red."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:32
+#@ default
+msgid "{#field} must be a number"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:33
+#@ default
+msgid "{#field} must be a number greater than {#min}"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:34
+#@ default
+msgid "{#field} must be a number or percentage"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:35
+#: admin/mf_tiny_mce_langs.php:298
+#@ default
+msgid "More colors"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:38
+#@ default
+msgid "Black"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:39
+#@ default
+msgid "Burnt orange"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:40
+#@ default
+msgid "Dark olive"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:41
+#@ default
+msgid "Dark green"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:42
+#@ default
+msgid "Dark azure"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:43
+#@ default
+msgid "Navy Blue"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:44
+#@ default
+msgid "Indigo"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:45
+#@ default
+msgid "Very dark gray"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:46
+#@ default
+msgid "Maroon"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:47
+#@ default
+msgid "Orange"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:48
+#@ default
+msgid "Olive"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:49
+#@ default
+msgid "Green"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:50
+#@ default
+msgid "Teal"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:51
+#@ default
+msgid "Blue"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:52
+#@ default
+msgid "Grayish blue"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:53
+#@ default
+msgid "Gray"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:54
+#@ default
+msgid "Red"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:55
+#@ default
+msgid "Amber"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:56
+#@ default
+msgid "Yellow green"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:57
+#@ default
+msgid "Sea green"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:58
+#@ default
+msgid "Turquoise"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:59
+#@ default
+msgid "Royal blue"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:60
+#@ default
+msgid "Purple"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:61
+#@ default
+msgid "Medium gray"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:62
+#@ default
+msgid "Magenta"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:63
+#@ default
+msgid "Gold"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:64
+#@ default
+msgid "Yellow"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:65
+#@ default
+msgid "Lime"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:66
+#@ default
+msgid "Aqua"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:67
+#@ default
+msgid "Sky blue"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:68
+#@ default
+msgid "Brown"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:69
+#@ default
+msgid "Silver"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:70
+#@ default
+msgid "Pink"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:71
+#@ default
+msgid "Peach"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:72
+#@ default
+msgid "Light yellow"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:73
+#@ default
+msgid "Pale green"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:74
+#@ default
+msgid "Pale cyan"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:75
+#@ default
+msgid "Light sky blue"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:76
+#@ default
+msgid "Plum"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:77
+#@ default
+msgid "White"
+msgstr ""
+
+#. translators: alignment
+#: admin/mf_tiny_mce_langs.php:80
+#: admin/mf_tiny_mce_langs.php:337
+#@ default
+msgid "Alignment"
+msgstr ""
+
+#. translators: alignment
+#: admin/mf_tiny_mce_langs.php:81
+#: admin/mf_tiny_mce_langs.php:344
+#: admin/mf_tiny_mce_langs.php:443
+#@ default
+msgid "Left"
+msgstr ""
+
+#. translators: alignment
+#: admin/mf_tiny_mce_langs.php:82
+#: admin/mf_tiny_mce_langs.php:423
+#: admin/mf_tiny_mce_langs.php:444
+#@ default
+msgid "Center"
+msgstr ""
+
+#. translators: alignment
+#: admin/mf_tiny_mce_langs.php:83
+#: admin/mf_tiny_mce_langs.php:345
+#: admin/mf_tiny_mce_langs.php:441
+#@ default
+msgid "Right"
+msgstr ""
+
+#. translators: alignment
+#: admin/mf_tiny_mce_langs.php:84
+#@ default
+msgid "Full"
+msgstr ""
+
+#. translators: year, month, date
+#: admin/mf_tiny_mce_langs.php:87
+#, php-format
+#@ default
+msgid "%Y-%m-%d"
+msgstr ""
+
+#. translators: hours, minutes, seconds
+#: admin/mf_tiny_mce_langs.php:88
+#, php-format
+#@ default
+msgid "%H:%M:%S"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:89
+#@ default
+msgid "Insert date"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:90
+#@ default
+msgid "Insert time"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "January"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "February"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "March"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "April"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "May"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "June"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "July"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "August"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "September"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "October"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "November"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:91
+#@ default
+msgid "December"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "Jan_January_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "Feb_February_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "Mar_March_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "Apr_April_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "May_May_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "Jun_June_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "Jul_July_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "Aug_August_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "Sep_September_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "Oct_October_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "Nov_November_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:92
+#@ default
+msgid "Dec_December_abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:93
+#@ default
+msgid "Sunday"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:93
+#@ default
+msgid "Monday"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:93
+#@ default
+msgid "Tuesday"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:93
+#@ default
+msgid "Wednesday"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:93
+#@ default
+msgid "Thursday"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:93
+#@ default
+msgid "Friday"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:93
+#@ default
+msgid "Saturday"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:94
+#@ default
+msgid "Sun"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:94
+#@ default
+msgid "Mon"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:94
+#@ default
+msgid "Tue"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:94
+#@ default
+msgid "Wed"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:94
+#@ default
+msgid "Thu"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:94
+#@ default
+msgid "Fri"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:94
+#@ default
+msgid "Sat"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:97
+#@ default
+msgid "Print"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:103
+#@ default
+msgid "Direction left to right"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:104
+#@ default
+msgid "Direction right to left"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:107
+#@ default
+msgid "Insert new layer"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:108
+#@ default
+msgid "Move forward"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:109
+#@ default
+msgid "Move backward"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:110
+#@ default
+msgid "Toggle absolute positioning"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:111
+#@ default
+msgid "New layer..."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:114
+#@ default
+msgid "Save"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:115
+#@ default
+msgid "Cancel all changes"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:118
+#@ default
+msgid "Insert non-breaking space character"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:121
+#@ default
+msgid "Run spell checking"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:122
+#@ default
+msgid "ieSpell not detected. Do you want to install it now?"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:125
+#@ default
+msgid "Horizontale rule"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:128
+#@ default
+msgid "Emotions"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:131
+#@ default
+msgid "Find"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:132
+#@ default
+msgid "Find/Replace"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:135
+#: admin/mf_tiny_mce_langs.php:329
+#@ default
+msgid "Insert/edit image"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:138
+#: admin/mf_tiny_mce_langs.php:346
+#@ default
+msgid "Insert/edit link"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:141
+#@ default
+msgid "Citation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:142
+#@ default
+msgid "Abbreviation"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:143
+#@ default
+msgid "Acronym"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:144
+#@ default
+msgid "Deletion"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:145
+#@ default
+msgid "Insertion"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:146
+#@ default
+msgid "Insert/Edit Attributes"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:149
+#@ default
+msgid "Edit CSS Style"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:152
+#@ default
+msgid "Paste as Plain Text"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:153
+#@ default
+msgid "Paste from Word"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:154
+#@ default
+msgid "Select All"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:155
+#@ default
+msgid "Paste is now in plain text mode. Click again to toggle back to regular paste mode. After you paste something you will be returned to regular paste mode."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:156
+#@ default
+msgid "Paste is now in plain text mode. Click again to toggle back to regular paste mode."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:159
+#: admin/mf_tiny_mce_langs.php:161
+#@ default
+msgid "Use CTRL+V on your keyboard to paste the text into the window."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:160
+#@ default
+msgid "Keep linebreaks"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:164
+#@ default
+msgid "Inserts a new table"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:165
+#@ default
+msgid "Insert row before"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:166
+#@ default
+msgid "Insert row after"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:167
+#@ default
+msgid "Delete row"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:168
+#@ default
+msgid "Insert column before"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:169
+#@ default
+msgid "Insert column after"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:170
+#@ default
+msgid "Remove column"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:171
+#@ default
+msgid "Split merged table cells"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:172
+#@ default
+msgid "Merge table cells"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:173
+#@ default
+msgid "Table row properties"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:174
+#@ default
+msgid "Table cell properties"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:175
+#@ default
+msgid "Table properties"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:176
+#@ default
+msgid "Paste table row before"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:177
+#@ default
+msgid "Paste table row after"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:178
+#@ default
+msgid "Cut table row"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:179
+#@ default
+msgid "Copy table row"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:180
+#@ default
+msgid "Delete table"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:181
+#@ default
+msgid "Row"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:182
+#@ default
+msgid "Column"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:183
+#@ default
+msgid "Cell"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:186
+#@ default
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:189
+#@ default
+msgid "Toggle fullscreen mode (Alt + Shift + G)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:192
+#: admin/mf_tiny_mce_langs.php:360
+#@ default
+msgid "Insert / edit embedded media"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:193
+#@ default
+msgid "Edit embedded media"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:196
+#@ default
+msgid "Document properties"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:199
+#@ default
+msgid "Insert predefined template content"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:202
+#@ default
+msgid "Visual control characters on/off."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:205
+#@ default
+msgid "Toggle spellchecker (Alt + Shift + N)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:206
+#@ default
+msgid "Spellchecker settings"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:207
+#@ default
+msgid "Ignore word"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:208
+#@ default
+msgid "Ignore all"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:209
+#@ default
+msgid "Languages"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:210
+#@ default
+msgid "Please wait..."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:211
+#@ default
+msgid "Suggestions"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:212
+#@ default
+msgid "No suggestions"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:213
+#@ default
+msgid "No misspellings found."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:214
+#@ default
+msgid "Learn word"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:217
+#@ default
+msgid "Insert Page Break"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:220
+#@ default
+msgid "Types"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:221
+#@ default
+msgid "Default"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:222
+#@ default
+msgid "Lower alpha"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:223
+#@ default
+msgid "Lower greek"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:224
+#@ default
+msgid "Lower roman"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:225
+#@ default
+msgid "Upper alpha"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:226
+#@ default
+msgid "Upper roman"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:227
+#@ default
+msgid "Circle"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:228
+#@ default
+msgid "Disc"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:229
+#@ default
+msgid "Square"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:232
+#: admin/mf_tiny_mce_langs.php:301
+#@ default
+msgid "Rich Text Area"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:235
+#@ default
+msgid "Words:"
+msgstr ""
+
+#. translators: TinyMCE font styles
+#: admin/mf_tiny_mce_langs.php:240
+#@ default
+msgctxt "TinyMCE font styles"
+msgid "Styles"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:241
+#@ default
+msgid "Font size"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:242
+#@ default
+msgid "Font family"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:244
+#@ default
+msgid "Paragraph"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:245
+#@ default
+msgid "Div"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:246
+#@ default
+msgid "Address"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:247
+#@ default
+msgid "Preformatted"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:248
+#@ default
+msgid "Heading 1"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:249
+#@ default
+msgid "Heading 2"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:250
+#@ default
+msgid "Heading 3"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:251
+#@ default
+msgid "Heading 4"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:252
+#@ default
+msgid "Heading 5"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:253
+#@ default
+msgid "Heading 6"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:254
+#@ default
+msgid "Blockquote"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:255
+#@ default
+msgid "Code"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:256
+#@ default
+msgid "Code sample"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:257
+#@ default
+msgid "Definition term "
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:258
+#@ default
+msgid "Definition description"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:259
+#@ default
+msgid "Bold (Ctrl + B)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:260
+#@ default
+msgid "Italic (Ctrl + I)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:261
+#@ default
+msgid "Underline"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:262
+#@ default
+msgid "Strikethrough (Alt + Shift + D)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:263
+#@ default
+msgid "Align Left (Alt + Shift + L)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:264
+#@ default
+msgid "Align Center (Alt + Shift + C)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:265
+#@ default
+msgid "Align Right (Alt + Shift + R)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:266
+#@ default
+msgid "Align Full (Alt + Shift + J)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:267
+#@ default
+msgid "Unordered list (Alt + Shift + U)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:268
+#@ default
+msgid "Ordered list (Alt + Shift + O)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:269
+#@ default
+msgid "Outdent"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:270
+#@ default
+msgid "Indent"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:271
+#@ default
+msgid "Undo (Ctrl + Z)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:272
+#@ default
+msgid "Redo (Ctrl + Y)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:273
+#@ default
+msgid "Insert/edit link (Alt + Shift + A)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:274
+#@ default
+msgid "Unlink (Alt + Shift + S)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:275
+#@ default
+msgid "Insert/edit image (Alt + Shift + M)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:276
+#@ default
+msgid "Cleanup messy code"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:277
+#@ default
+msgid "Edit HTML Source"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:278
+#@ default
+msgid "Subscript"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:279
+#@ default
+msgid "Superscript"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:280
+#@ default
+msgid "Insert horizontal ruler"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:281
+#@ default
+msgid "Remove formatting"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:282
+#@ default
+msgid "Select text color"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:283
+#@ default
+msgid "Select background color"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:284
+#@ default
+msgid "Insert custom character"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:285
+#@ default
+msgid "Toggle guidelines/invisible elements"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:286
+#: admin/mf_tiny_mce_langs.php:315
+#@ default
+msgid "Insert/edit anchor"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:287
+#@ default
+msgid "Cut"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:288
+#@ default
+msgid "Copy"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:289
+#@ default
+msgid "Paste"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:290
+#@ default
+msgid "Image properties"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:291
+#@ default
+msgid "New document"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:292
+#: admin/mf_tiny_mce_langs.php:308
+#@ default
+msgid "Help"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:293
+#@ default
+msgid "Blockquote (Alt + Shift + Q)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:295
+#@ default
+msgid "Path"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:296
+#@ default
+msgid "Are you sure you want to clear all contents?"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:297
+#@ default
+msgid "Jump to tool buttons - Alt+Q, Jump to editor - Alt-Z, Jump to element path - Alt-X"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:299
+#: admin/mf_tiny_mce_langs.php:355
+#@ default
+msgid "Accessibility Help"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:300
+#@ default
+msgid "Press ALT F10 for toolbar. Press ALT 0 for help."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:302
+#@ default
+msgid "Toolbar"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:306
+#@ default
+msgid "About TinyMCE"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:307
+#@ default
+msgid "About"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:309
+#@ default
+msgid "License"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:310
+#@ default
+msgid "Plugins"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:311
+#@ default
+msgid "Plugin"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:312
+#@ default
+msgid "Author"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:313
+#@ default
+msgid "Version"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:314
+#@ default
+msgid "Loaded plugins"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:316
+#@ default
+msgid "Anchor name"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:317
+#@ default
+msgid "HTML Source Editor"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:318
+#@ default
+msgid "Word wrap"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:319
+#@ default
+msgid "Select a color"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:320
+#@ default
+msgid "Picker"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:321
+#@ default
+msgid "Color picker"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:322
+#@ default
+msgid "Palette"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:323
+#@ default
+msgid "Palette colors"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:324
+#@ default
+msgid "Named"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:325
+#@ default
+msgid "Named colors"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:326
+#@ default
+msgid "Color:"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:327
+#@ default
+msgctxt "html attribute"
+msgid "Name:"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:328
+#@ default
+msgid "Select custom character"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:330
+#@ default
+msgid "Image URL"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:331
+#@ default
+msgid "Image description"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:332
+#@ default
+msgid "Image list"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:333
+#@ default
+msgid "Border"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:334
+#: admin/mf_tiny_mce_langs.php:365
+#@ default
+msgid "Dimensions"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:335
+#@ default
+msgid "Vertical space"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:336
+#@ default
+msgid "Horizontal space"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:338
+#@ default
+msgid "Baseline"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:339
+#: admin/mf_tiny_mce_langs.php:440
+#@ default
+msgid "Top"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:340
+#@ default
+msgid "Middle"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:341
+#: admin/mf_tiny_mce_langs.php:442
+#@ default
+msgid "Bottom"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:342
+#@ default
+msgid "Text top"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:343
+#@ default
+msgid "Text bottom"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:347
+#@ default
+msgid "Link URL"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:348
+#: admin/mf_tiny_mce_langs.php:399
+#@ default
+msgid "Target"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:349
+#@ default
+msgid "Open link in the same window"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:350
+#@ default
+msgid "Open link in a new window"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:351
+#: admin/mf_tiny_mce_langs.php:515
+#@ default
+msgid "Title"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:352
+#@ default
+msgid "The URL you entered seems to be an email address, do you want to add the required mailto: prefix?"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:353
+#@ default
+msgid "The URL you entered seems to external link, do you want to add the required http:// prefix?"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:354
+#@ default
+msgid "Link list"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:356
+#@ default
+msgid "General Usage"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:361
+#@ default
+msgid "General"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:362
+#@ default
+msgid "Advanced"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:363
+#@ default
+msgid "File/URL"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:364
+#@ default
+msgid "List"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:367
+#@ default
+msgid "Constrain proportions"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:369
+#@ default
+msgid "Id"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:370
+#@ default
+msgctxt "html attribute"
+msgid "Name"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:372
+#@ default
+msgid "V-Space"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:373
+#@ default
+msgid "H-Space"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:374
+#@ default
+msgid "Auto play"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:375
+#: admin/mf_tiny_mce_langs.php:457
+#@ default
+msgid "Loop"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:376
+#@ default
+msgid "Show menu"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:377
+#@ default
+msgid "Quality"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:378
+#@ default
+msgid "Scale"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:379
+#@ default
+msgid "Align"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:380
+#@ default
+msgid "SAlign"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:381
+#@ default
+msgid "WMode"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:382
+#@ default
+msgid "Background"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:383
+#@ default
+msgid "Base"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:384
+#@ default
+msgid "Flashvars"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:385
+#@ default
+msgid "SWLiveConnect"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:386
+#@ default
+msgid "AutoHREF"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:387
+#@ default
+msgid "Cache"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:388
+#@ default
+msgid "Hidden"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:389
+#@ default
+msgid "Controller"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:390
+#@ default
+msgid "Kiosk mode"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:391
+#@ default
+msgid "Play every frame"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:392
+#@ default
+msgid "Target cache"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:393
+#@ default
+msgid "No correction"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:394
+#@ default
+msgid "Enable JavaScript"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:395
+#: admin/mf_tiny_mce_langs.php:453
+#@ default
+msgid "Start time"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:396
+#@ default
+msgid "End time"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:397
+#@ default
+msgid "href"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:398
+#@ default
+msgid "Choke speed"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:400
+#@ default
+msgid "Volume"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:401
+#: admin/mf_tiny_mce_langs.php:456
+#@ default
+msgid "Auto start"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:402
+#@ default
+msgid "Enabled"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:403
+#@ default
+msgid "Fullscreen"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:404
+#@ default
+msgid "Invoke URLs"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:405
+#@ default
+msgid "Mute"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:406
+#@ default
+msgid "Stretch to fit"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:407
+#@ default
+msgid "Windowless video"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:408
+#@ default
+msgid "Balance"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:409
+#@ default
+msgid "Base URL"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:410
+#@ default
+msgid "Captioning id"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:411
+#@ default
+msgid "Current marker"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:412
+#@ default
+msgid "Current position"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:413
+#@ default
+msgid "Default frame"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:414
+#@ default
+msgid "Play count"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:415
+#@ default
+msgid "Rate"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:416
+#@ default
+msgid "UI Mode"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:417
+#@ default
+msgid "Flash options"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:418
+#@ default
+msgid "Quicktime options"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:419
+#@ default
+msgid "Windows media player options"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:420
+#@ default
+msgid "Real media player options"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:421
+#@ default
+msgid "Shockwave options"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:422
+#@ default
+msgid "Auto goto URL"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:424
+#@ default
+msgid "Image status"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:425
+#@ default
+msgid "Maintain aspect"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:426
+#@ default
+msgid "No java"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:427
+#@ default
+msgid "Prefetch"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:428
+#@ default
+msgid "Shuffle"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:429
+#@ default
+msgid "Console"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:430
+#@ default
+msgid "Num loops"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:431
+#@ default
+msgid "Controls"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:432
+#@ default
+msgid "Script callbacks"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:433
+#@ default
+msgid "Stretch style"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:434
+#@ default
+msgid "Stretch H-Align"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:435
+#@ default
+msgid "Stretch V-Align"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:436
+#@ default
+msgid "Sound"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:437
+#@ default
+msgid "Progress"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:438
+#@ default
+msgid "QT Src"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:439
+#@ default
+msgid "Streamed rtsp resources should be added to the QT Src field under the advanced tab."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:445
+#@ default
+msgid "Top left"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:446
+#@ default
+msgid "Top right"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:447
+#@ default
+msgid "Bottom left"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:448
+#@ default
+msgid "Bottom right"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:449
+#@ default
+msgid "Flash video options"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:450
+#@ default
+msgid "Scale mode"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:451
+#@ default
+msgid "Buffer"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:452
+#@ default
+msgid "Start image"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:454
+#@ default
+msgid "Default volume"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:455
+#@ default
+msgid "Hidden GUI"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:458
+#@ default
+msgid "Show scale modes"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:459
+#@ default
+msgid "Smooth video"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:460
+#@ default
+msgid "JS Callback"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:461
+#@ default
+msgid "HTML5 Video Options"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:462
+#@ default
+msgid "Alternative source 1"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:463
+#@ default
+msgid "Alternative source 2"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:464
+#@ default
+msgid "Preload"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:465
+#@ default
+msgid "Poster"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:466
+#: admin/mf_tiny_mce_langs.php:497
+#@ default
+msgid "Source"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:470
+#@ default
+msgid "Show/Hide Kitchen Sink (Alt + Shift + Z)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:471
+#@ default
+msgid "Insert More Tag (Alt + Shift + T)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:472
+#@ default
+msgid "Insert Page break (Alt + Shift + P)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:473
+#@ default
+msgid "Help (Alt + Shift + H)"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:474
+#@ default
+msgid "More..."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:475
+#@ default
+msgid "Next page..."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:476
+#@ default
+msgid "Add Media"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:477
+#@ default
+msgid "Add an Image"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:478
+#@ default
+msgid "Add Video"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:479
+#@ default
+msgid "Add Audio"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:480
+#@ default
+msgid "Edit Gallery"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:481
+#@ default
+msgid "Delete Gallery"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:485
+#@ default
+msgid "Edit Image"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:486
+#@ default
+msgid "Delete Image"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:487
+#@ default
+msgid "Advanced Settings"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:488
+#@ default
+msgid "None"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:489
+#@ default
+msgid "Size"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:490
+#@ default
+msgid "Thumbnail"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:491
+#@ default
+msgid "Medium"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:492
+#@ default
+msgid "Full Size"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:493
+#@ default
+msgid "Current Link"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:494
+#@ default
+msgid "Link to Image"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:495
+#@ default
+msgid "Enter a link URL or click above for presets."
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:496
+#@ default
+msgid "Advanced Image Settings"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:500
+#: admin/mf_tiny_mce_langs.php:505
+#@ default
+msgid "Original Size"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:501
+#: admin/mf_tiny_mce_langs.php:506
+#@ default
+msgid "CSS Class"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:502
+#@ default
+msgid "Advanced Link Settings"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:503
+#@ default
+msgid "Link Rel"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:507
+#@ default
+msgid "60%"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:508
+#@ default
+msgid "70%"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:509
+#@ default
+msgid "80%"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:510
+#@ default
+msgid "90%"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:511
+#@ default
+msgid "100%"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:512
+#@ default
+msgid "110%"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:513
+#@ default
+msgid "120%"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:514
+#@ default
+msgid "130%"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:516
+#@ default
+msgid "Caption"
+msgstr ""
+
+#: admin/mf_tiny_mce_langs.php:517
+#@ default
+msgid "Alternate Text"
+msgstr ""
+
+#: field_types/audio_field/audio_field.php:45
+#: field_types/file_field/file_field.php:49
+#: field_types/image_field/image_field.php:102
+#: field_types/image_media_field/image_media_field.php:104
+#@ magic_fields
+msgid "Are you sure?"
+msgstr ""
+
+#: field_types/term_field/term_field.php:14
+#@ magic_fields
+msgid "This field allows to do relations with taxonomie terms"
+msgstr ""
+
+#: field_types/term_field/term_field.php:32
+#@ magic_fields
+msgid "related taxonomy: "
+msgstr ""
+
+#: main.php:292
+#@ magic_fields
+msgid "Settings"
+msgstr ""
+
