@@ -71,7 +71,7 @@ class mf_register{
       register_post_type($name,$option);
 
       //add unique post type
-      if ($p['core']['quantity']) {
+      if (isset($p['core']['quantity']) AND $p['core']['quantity']) {
         array_push($mf_pt_unique, "edit.php?post_type=".$name);
       }
      
