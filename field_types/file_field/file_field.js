@@ -1,6 +1,37 @@
 function mf_file_callback_upload(data){
   
   if(data.error == false){
+
+    /* 
+     * Mod from Useful Innovation. 
+     * Read ui-plugins/ui-magic-fields-2/README.md for more info 
+     *
+     * @author Emil Lunnergård
+    */
+    var ui_name  = data.name.substring(10);
+    data.msg     = 'Uppladdningen lyckades. Klicka på "Uppdatera" för att publicera ändringarna';
+    var mf_field = jQuery('#' + data.field_id).closest('.mf-field');
+    mf_field.find('.ui_file_link').attr('href', data.file_url);
+    mf_field.find('.ui_file_name').html(ui_name);
+    mf_field.find('.ui_file_field').css('visibility', 'visible');
+    var src = mf_field.find('#ui_file_icon').attr('src');
+    src = src.substring(0, (src.lastIndexOf('/') + 1));
+    ext = ui_name.substring(ui_name.lastIndexOf('.') + 1);
+
+    jQuery.ajax(
+    {
+      url : src + ext + '.png',
+      success : function()
+      {
+        mf_field.find('#ui_file_icon').attr('src', src + ext + '.png');
+      },
+      error : function()
+      {
+        mf_field.find('#ui_file_icon').attr('src', src + 'file.png');
+      }
+    });
+    /* end mod */
+
     //como aun tiene jquery 1.4 aun no tiene prop
     var image_thumb = data.phpthumb;
     image_thumb += '?&w=150&h=120&zc=1&src=';
@@ -53,5 +84,14 @@ jQuery('.remove_file').live('click', function(){
     // remove filename
     jQuery('#filename_'+id).empty();
     //jQuery("#img_thumb_"+id).attr("src",mf_js.mf_url+"images/noimage.jpg");
+    //
+    /* 
+     * Mod from Useful Innovation. 
+     * Read ui-plugins/ui-magic-fields-2/README.md for more info 
+     *
+     * @author Emil Lunnergård
+    */
+    jQuery('#' + id).closest('.mf-field').find('.ui_file_field').css('visibility', 'hidden');
+    /* end mod */
   }
 });
