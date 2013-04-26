@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Magic Fields
+Plugin Name: Magic Fields for UI-Twelve
 Plugin URI: http://magicfields.org
 Description: Create custom fields for your post types
-Version: 2.0.1
-Author:  Hunk and Gnuget
+Version: 5.0
+Author:  Hunk and Gnuget (mods by Useful Innovation)
 Author URI: http://magicfields.org
 License: GPL2
 */
