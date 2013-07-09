@@ -46,9 +46,14 @@ class mf_register{
 			if(isset($option['has_archive']) && $option['has_archive'] && isset($option['has_archive_slug']) && $option['has_archive_slug'])	
 				$option['has_archive'] = $option['has_archive_slug'];
 			
-			
+			if(function_exists('t')) {
+        $slug = t(array('post-types', $option['rewrite_slug']))
+      } else {
+        $slug = $option['rewrite_slug'];
+      }
+
       if($option['rewrite'] && $option['rewrite_slug'])
-        $option['rewrite'] = array( 'slug' => t(array('post-types', $option['rewrite_slug'])),'with_front' => $option['with_front']);
+        $option['rewrite'] = array( 'slug' => $slug,'with_front' => $option['with_front']);
 
       unset($option['rewrite_slug']);
       unset($option['with_front']);
