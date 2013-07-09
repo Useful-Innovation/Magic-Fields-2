@@ -47,7 +47,7 @@ class mf_register{
 				$option['has_archive'] = $option['has_archive_slug'];
 			
 			if(function_exists('t')) {
-        $slug = t(array('post-types', $option['rewrite_slug']))
+        $slug = t(array('post-types', $option['rewrite_slug']));
       } else {
         $slug = $option['rewrite_slug'];
       }
