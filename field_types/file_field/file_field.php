@@ -46,7 +46,7 @@ class file_field extends mf_custom_fields {
      *  Read ui-plugins/ui-magic-fields-2/README.md for more info 
      *  @author Emil Lunnergård
      */
-    $img_sub_path = '/images/icons/file-types/48/';
+    $img_sub_path = '/assets/images/icons/file-types/48/';
     $ui_filename  = substr($field['input_value'], 10);
     $ui_extension = pathinfo($ui_filename, PATHINFO_EXTENSION);
     $icon         = (file_exists(get_theme_root() . '/' . get_template() . $img_sub_path . $ui_extension . '.png') ? $ui_extension : 'file');
