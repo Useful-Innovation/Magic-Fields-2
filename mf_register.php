@@ -14,7 +14,7 @@ class mf_register{
 
   // register post type
   public function mf_register_post_types(){
-    global $mf_pt_register,$mf_pt_unique;
+    global $mf_pt_register,$mf_pt_unique, $wpdb;
 
     $post_types = $this->_get_post_types();
     
@@ -74,6 +74,20 @@ class mf_register{
       //description
       $option['description'] = $p['core']['description'];
       register_post_type($name,$option);
+
+      //
+      //  Mod to flush rewrites
+      //
+      $arguments = $wpdb->get_var("SELECT arguments FROM " . MF_TABLE_POSTTYPES . " WHERE type = '" . $name . "'");
+      if($arguments) {
+        $arguments = unserialize($arguments);
+        if($arguments AND $arguments['core']['flush_rewrites'] == true) {
+          flush_rewrite_rules(true);
+          $arguments['core']['flush_rewrites'] = false;
+          $arguments = serialize($arguments);
+          $wpdb->query("UPDATE " . MF_TABLE_POSTTYPES . " SET arguments = '" . $arguments . "' WHERE type = '" . $name . "'");
+        }
+      }
 
       //add unique post type
       if (isset($p['core']['quantity']) AND $p['core']['quantity']) {
