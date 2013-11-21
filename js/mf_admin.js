@@ -261,7 +261,7 @@ function mf_use_new_image_gallery(){
   var _custom_media = true;
   _orig_send_attachment = wp.media.editor.send.attachment;
 
-  jQuery('.update_field_media_upload').removeClass('thickbox').live('click', function(e){
+  jQuery('.update_field_media_upload').live('click', function(e){
     window.mf_field_id = jQuery(this).attr('id').replace('thumb_', '');
     _custom_media = true;
 

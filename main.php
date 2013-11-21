@@ -208,13 +208,6 @@ load_plugin_textdomain('magic_fields', '/'.PLUGINDIR.'/'.dirname(plugin_basename
       //and this scripts only will be added on the post types section
       if( !empty( $_GET['mf_section'] ) && $_GET['mf_section'] == "mf_posttype" ) {
         wp_enqueue_script( 'mf_posttype', MF_BASENAME.'js/mf_posttypes.js', array('mf_admin') );
-				wp_enqueue_script('thickbox');
-				wp_enqueue_style('thickbox');
-      }
-
-			if( !empty( $_GET['page'] ) && $_GET['page'] == "mf_dispatcher" ) {
-				wp_enqueue_script('thickbox');
-				wp_enqueue_style('thickbox');
       }
 
       //and this scripts only will be added on the custom taxonomy section
