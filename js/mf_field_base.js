@@ -154,6 +154,11 @@ jQuery(document).ready(function($) {
         $(counter_group_id).val(group_index);
         fixCounterGroup('#mf_group-'+group_id);
         $.mf_bind('duplicate');
+        $('body').trigger({
+          type: 'mf_group_duplicated',
+          mfGroupId: 'mf_group-' + group_id,
+          mfGroupIndex: 'mf_group_' + group_id + '_' + group_index
+        });
       }
     });
   });
