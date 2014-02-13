@@ -102,6 +102,11 @@ jQuery(document).ready(function($) {
       complete: function() {
         parent.remove();
         fixCounterGroup('#mf_group-'+item[2]);
+        $('body').trigger({
+          type: 'mf_group_removed',
+          mfGroupId: 'mf_group-' + item[2],
+          mfGroupIndex: 'mf_group_' + item[2] + '_' + item[3]
+        });
       }
     });
   });
