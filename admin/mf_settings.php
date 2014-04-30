@@ -5,7 +5,7 @@
  */
 class mf_settings extends mf_admin {
 
-  function main() {
+  public static function main() {
 
     if($_POST){
       self::save_settings($_POST);
@@ -41,7 +41,7 @@ class mf_settings extends mf_admin {
     }
   }
 
-  public function form_options($options){
+  public static function form_options($options){
     global $mf_domain;
     ?>
     <div class="widefat mf_form mf_form_settings">
@@ -78,7 +78,7 @@ class mf_settings extends mf_admin {
     <?php
   }
 
-  public function fields_form() {
+  public static function fields_form() {
     global $mf_domain;
   
     $options = get_option(MF_SETTINGS_KEY);
@@ -152,7 +152,7 @@ class mf_settings extends mf_admin {
     update_option(MF_SETTINGS_KEY, $options);
   }
 
-  function get($key = null) {
+  public static function get($key = null) {
     if (get_option(MF_SETTINGS_KEY) == "") return "";
     if (is_array(get_option(MF_SETTINGS_KEY)))
       $options = get_option(MF_SETTINGS_KEY);
