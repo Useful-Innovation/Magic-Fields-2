@@ -3,8 +3,8 @@
 Plugin Name: Magic Fields for UI-Twelve
 Plugin URI: http://magicfields.org
 Description: Create custom fields for your post types
-Version: 5.0
-Author:  Hunk and Gnuget (mods by Useful Innovation)
+Version: 2.2.1
+Author:  Hunk and Gnuget (mods by GoBrave)
 Author URI: http://magicfields.org
 License: GPL2
 */
@@ -230,6 +230,7 @@ load_plugin_textdomain('magic_fields', '/'.PLUGINDIR.'/'.dirname(plugin_basename
       if( strstr( $_SERVER['REQUEST_URI'], 'post-new.php' ) !== FALSE  || strstr( $_SERVER['REQUEST_URI'],  'wp-admin/post.php') !== FALSE ) {
         /* Load JS and CSS for post page */
         $css_js = new mf_post();
+        $css_js->check_exist_visual_editor();
         $css_js->load_js_css_base();
         $css_js->load_js_css_fields();
         $css_js->general_option_multiline();
@@ -296,6 +297,12 @@ function mf_action_links($links, $file){
 add_action('template_redirect','mf_change_template');
 function mf_change_template() {
   global $post;
+
+  // Check global post
+  if ( empty( $post ) ) {
+    return;
+  }
+
 
   // Process feeds and trackbacks even if not using themes.
   if ( is_robots() ) :

@@ -73,18 +73,20 @@ class mf_admin {
    *
    *  @return array
    */
-  public function mf_get_post_types( $args = array('public' => true), $output = 'object', $operator = 'and' ){
+  public function mf_get_post_types( $args = array(), $output = 'object', $operator = 'and' ){
     global $wpdb;
 
     $post_types = get_post_types( $args, $output, $operator );
 
     foreach ( $post_types as $key => $type ) {
       if( $output == 'names' ) {
-        if( $type == 'attachment' ) {
+        if( $type == 'attachment' || $type == 'revision' || $type == 'nav_menu_item'   ) {
           unset($post_types[$key]);
         }
       } else if ($output == 'object' ) {
         unset($post_types['attachment']);
+        unset($post_types['revision']);
+        unset($post_types['nav_menu_item']);
       }
     }
 
@@ -106,7 +108,7 @@ class mf_admin {
     $custom_taxonomy = $wpdb->get_row( $query, ARRAY_A );
     if($custom_taxonomy){
       $id = $custom_taxonomy['id'];
-      $custom_taxonomy = unserialize($custom_taxonomy['arguments'],true);
+      $custom_taxonomy = unserialize($custom_taxonomy['arguments']);
       $custom_taxonomy['core']['id'] = $id;
       return $custom_taxonomy;
     }
@@ -734,7 +736,7 @@ class mf_admin {
     $wpdb->query($sql);
   }
 
-  function mf_unregister_post_type( $post_type ) {
+  public static function mf_unregister_post_type( $post_type ) {
     /* Ideally we should just unset the post type from the array 
        but wordpress 3.2.1 this doesn't work */
 

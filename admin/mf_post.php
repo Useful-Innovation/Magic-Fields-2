@@ -38,7 +38,7 @@ class mf_post extends mf_admin {
     $mf_post_values = $this->mf_get_post_values($post->ID);
 
     //Getting the post types
-    $post_types = $this->mf_get_post_types( array('public' => true ), 'names'  );
+    $post_types = $this->mf_get_post_types( array(), 'names'  );
 
     foreach ( $post_types as $post_type ){
       if ( post_type_supports($post_type, 'page-attributes') && $post_type != 'page' ) {
@@ -394,12 +394,21 @@ class mf_post extends mf_admin {
     wp_enqueue_script( 'mf_field_base', MF_BASENAME.'js/mf_field_base.js'); 
     wp_enqueue_script( 'mf_sortable_groups', MF_BASENAME.'js/mf_sortable_groups.js', array( 'jquery-ui-sortable' ) );
 
+    $mceAddString = "mceAddControl";
+    $mceRemoveString = "mceRemoveControl";
+    if(is_wp39()){
+      $mceAddString = "mceAddEditor";
+      $mceRemoveString = "mceRemoveEditor";
+    }
+
     //global mf js
     $js_vars = array(
       'mf_url' => MF_BASENAME,
       'mf_player_url' => MF_BASENAME . 'js/singlemp3player.swf',
       'mf_validation_error_msg' => __('Sorry, some required fields are missing. Please provide values for any highlighted fields and try again.',$mf_domain),
-      'mf_image_media_set' => __('Insert into field',$mf_domain)
+      'mf_image_media_set' => __('Insert into field',$mf_domain),
+      'mf_mceAddString' => $mceAddString,
+      'mf_mceRemoveString' => $mceRemoveString
     );
     wp_localize_script( 'mf_field_base', 'mf_js', $js_vars );    
     
@@ -420,12 +429,12 @@ class mf_post extends mf_admin {
     /* add tiny_mce script */
     /* only add of editor support no exits for the post type*/
     if( (in_array('multiline',$fields) || in_array('image_media',$fields) )  && !post_type_supports($post_type,'editor' ) ){
-      add_thickbox();
+      /*add_thickbox();
       wp_enqueue_script('media-upload');
       wp_enqueue_script('editor'); // load admin/mf_editor.js (switchEditor)
       mf_autoload('mf_tiny_mce'); // load admin/mf_tiny_mce.php (tinyMCE)
       add_action( 'admin_print_footer_scripts', 'mf_tiny_mce', 25 ); // embed tinyMCE
-      add_action( 'admin_print_footer_scripts', array($this, 'media_buttons_add_mf'), 51 );
+      add_action( 'admin_print_footer_scripts', array($this, 'media_buttons_add_mf'), 51 );*/
     }
 
     foreach($fields as $field) {
@@ -477,7 +486,28 @@ class mf_post extends mf_admin {
       }
     }
   }
-  
+
+  public function check_exist_visual_editor(){
+
+    if( !empty( $_GET['post']) && is_numeric( $_GET['post'] ) ) {//when the post already exists
+      $post_type = get_post_type($_GET['post']);   
+    }else{ //Creating a new post
+      $post_type = (!empty($_GET['post_type'])) ? $_GET['post_type'] : 'post';
+    }
+
+    $fields = $this->get_unique_custom_fields_by_post_type($post_type);
+
+    /* add tiny_mce script */
+    /* only add of editor support no exits for the post type*/
+    if( (in_array('multiline',$fields) || in_array('image_media',$fields) )  && !post_type_supports($post_type,'editor' ) ){
+      echo "<div style='display:none'>";
+      echo wp_editor('','you_know_nothing');
+      echo "</div>";
+    }
+
+    
+    
+  }
   public function media_buttons_add_mf(){
     
     print '<div style="display:none;">';
