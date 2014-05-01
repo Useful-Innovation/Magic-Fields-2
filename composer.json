@@ -1,0 +1,13 @@
+{
+    "name": "gobrave/magic-fields-2",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Emil Lunnergård",
+            "email": "emil@gobrave.se"
+        }
+    ],
+    "require": {
+
+    }
+}
