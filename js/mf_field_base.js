@@ -134,6 +134,11 @@ jQuery(document).ready(function($) {
         $(counter_id).val(field_index);
         fixcounter('#mf_group_field_'+group_id+'_'+group_index+'_'+field_id);
         $.mf_bind('duplicate');
+        $('body').trigger({
+          type: 'mf_field_duplicated',
+          mfGroupId: 'mf_group-' + group_id,
+          mfGroupIndex: 'mf_group_' + group_id + '_' + group_index
+        });
         mf_use_new_image_gallery();
       }
     });
