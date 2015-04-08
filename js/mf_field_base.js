@@ -51,25 +51,23 @@ jQuery(document).ready(function($) {
     </div>';
 
   //tooltip
-  $(document).on('mouseenter mouseleave','small.mf_tip', function(event) {
-    if (event.type == 'mouseenter') {
-       var ht = $.trim($(this).children('span.mf_helptext').html());
-       if (ht && ht != "") {
-          var tt = $($.tmpl(tt_template, { content: ht }));
-          var tip = $(this).offset();
-          var tip_left = tip.left - 13;
-          var tip_top = tip.top + 5;
-          $(this).children('span.mf_helptext').after(tt).hide();
-
-          var tip_height = $(this).children('div.tt').height();;
-          tip_top -= tip_height;
-
-          $(this).children('div.tt').offset({ top: tip_top, left: tip_left}).show();
-       }
-    } else {
-      $(this).children('div.tt').remove();
-    }
-  });
+  // $(document).on('mouseenter mouseleave','small.mf_tip', function(event) {
+  //   if (event.type == 'mouseenter') {
+  //      var ht = $.trim($(this).children('span.mf_helptext').html());
+  //      if (ht && ht != "") {
+  //         var tt = $($.tmpl(tt_template, { content: ht }));
+  //         var tip = $(this).offset();
+  //         var tip_left = tip.left - 13;
+  //         var tip_top = tip.top + 5;
+  //         $(this).children('span.mf_helptext').after(tt).hide();
+  //         var tip_height = $(this).children('div.tt').height();;
+  //         tip_top -= tip_height;
+  //         $(this).children('div.tt').offset({ top: tip_top, left: tip_left}).show();
+  //      }
+  //   } else {
+  //     $(this).children('div.tt').remove();
+  //   }
+  // });
 
   $(document).on("click", '.delete_duplicate_field',function(event){
    id = jQuery(this).attr("id");

@@ -168,7 +168,7 @@ class mf_post extends mf_admin {
     $field_style = ($field_index == 1)? 'style="display: none; "' : ''; 
 
     $name = sprintf('field-%s',$field['name']);
-    $tool = sprintf('<small class="mf_tip"><em>%s</em><span class="mf_helptext">%s</span></small>',__( 'What\'s this?', $mf_domain ),'%s');
+    $tool = sprintf('<br /><small><span class="mf_helptext">%s</span></small>','%s');
     $help = ($field['description'])? sprintf($tool,$field['description']) : '';
     $required = ($field['required_field'])? ' <span class="required">*</span>' : '';
     $value =  (!empty($mf_post_values[$field['name']][$group_index][$field_index])) ? $mf_post_values[$field['name']][$group_index][$field_index] : '';
