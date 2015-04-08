@@ -115,48 +115,52 @@ class mf_post extends mf_admin {
 
   public function mf_draw_group($metabox,$extraclass = '',$group_index = 1 ,$custom_fields = array() ,$mf_post_values = array(),$only_group = FALSE){
     global $post, $mf_domain;
-    $id = sprintf('mf_group_%s_%s',$metabox['args']['group_info']['id'], $group_index);
-    $group_id = $metabox['args']['group_info']['id'];
-    $delete_id = sprintf('delete_group_repeat-%d_%d',$group_id,$group_index);
-    $add_id = sprintf('mf_group_repeat-%s_%s',$group_id,$group_index);
+    $id          = sprintf('mf_group_%s_%s',$metabox['args']['group_info']['id'], $group_index);
+    $group_id    = $metabox['args']['group_info']['id'];
+    $delete_id   = sprintf('delete_group_repeat-%d_%d',$group_id,$group_index);
+    $add_id      = sprintf('mf_group_repeat-%s_%s',$group_id,$group_index);
     $group_style = 'style="display: none;"';
-   ?>
+    ?>
     <div class="mf_group <?php print $extraclass; ?>" id="<?php print $id; ?>">
-       <!-- campos del grupo (por cada campo) -->
-       <?php foreach( $custom_fields as $field ):?>
-         <!-- si el campo se puede duplicar deberia estar esto N veces -->
-         <?php
-           $field_class = '';
-    if($field['duplicated'] && isset($post->ID) ){
-             $repeated_field = $this->mf_get_duplicated_fields_by_group($post->ID, $field['name'],$group_id,$group_index);
-           }else{
-             $repeated_field = 1;
-           }
+      <?php if($metabox['args']['group_info']['duplicated']): ?>
+        <div class="mf_toolbox">
+          <span class="mf-counter sortable-mf"><?php print $group_index; ?></span>
+          <span class="hndle sortable_mf row_mf" style="float: right">&nbsp;</span>
+        </div>
+      <?php endif; ?>
+      <!-- campos del grupo (por cada campo) -->
+      <?php foreach( $custom_fields as $field ):?>
+        <!-- si el campo se puede duplicar deberia estar esto N veces -->
+        <?php
+        $field_class = '';
+        if($field['duplicated'] && isset($post->ID) ) {
+          $repeated_field = $this->mf_get_duplicated_fields_by_group($post->ID, $field['name'],$group_id,$group_index);
+        } else {
+          $repeated_field = 1;
+        }
 
-           $group_field = sprintf('mf_group_field_%d_%d_%d',$group_id,$group_index,$field['id']);
-           print '<div class="mf-field" id="'.$group_field.'" >';
-           for( $field_index = 1; $field_index <= $repeated_field; $field_index++ ){
-             $only = ($repeated_field == 1)? TRUE : FALSE;
-             $this->mf_draw_field($field,$group_id,$group_index,$field_index,$mf_post_values, $only);
-           }
-           printf('<input value="%d" id="mf_counter_%d_%d_%d" style="display:none" >',$repeated_field,$group_id,$group_index,$field['id']);
-           print '</div>';
-         ?>
-         <!-- fin de campo duplicado -->
-       <?php endforeach;?>
-       <!-- fin del campo -->
-       <?php if($metabox['args']['group_info']['duplicated']): ?>
-          <div class="mf_toolbox">
-             <span class="mf-counter sortable-mf"><?php print $group_index; ?></span>
-             <span class="hndle sortable_mf row_mf">&nbsp;</span>
-             <span class="mf_toolbox_controls">
-               <a class="duplicate_button" id="<?php print $add_id; ?>" href="javascript:void(0);"><span><?php _e('Add Another', $mf_domain); ?></span> <?php echo $metabox['args']['group_info']['label']; ?></a>
-                                                                                                                                                                                      <a class="delete_duplicate_button"  id="<?php print $delete_id; ?>" href="javascript:void(0);" <?php if($only_group) print $group_style; ?> ><span><?php _e('Remove', $mf_domain); ?></span> <?php echo $metabox['args']['group_info']['label']; ?></a>
-             </span>
-          </div>
-       <?php endif; ?>
+        $group_field = sprintf('mf_group_field_%d_%d_%d',$group_id,$group_index,$field['id']);
+        print '<div class="mf-field" id="'.$group_field.'" >';
+        for( $field_index = 1; $field_index <= $repeated_field; $field_index++ ){
+          $only = ($repeated_field == 1)? TRUE : FALSE;
+          $this->mf_draw_field($field,$group_id,$group_index,$field_index,$mf_post_values, $only);
+        }
+        printf('<input value="%d" id="mf_counter_%d_%d_%d" style="display:none" >',$repeated_field,$group_id,$group_index,$field['id']);
+        print '</div>';
+        ?>
+        <!-- fin de campo duplicado -->
+      <?php endforeach; ?>
+      <!-- fin del campo -->
+      <?php if($metabox['args']['group_info']['duplicated']): ?>
+        <div class="mf_toolbox">
+          <span class="mf_toolbox_controls">
+            <a class="duplicate_button" id="<?php print $add_id; ?>" href="javascript:void(0);"><span><?php _e('Add Another', $mf_domain); ?></span> <?php echo $metabox['args']['group_info']['label']; ?></a>
+            <a class="delete_duplicate_button"  id="<?php print $delete_id; ?>" href="javascript:void(0);" <?php if($only_group) print $group_style; ?> ><span><?php _e('Remove', $mf_domain); ?></span> <?php echo $metabox['args']['group_info']['label']; ?></a>
+          </span>
+        </div>
+      <?php endif; ?>
     </div>
-   <?php
+    <?php
   }
 
   public function mf_draw_field($field,$group_id,$group_index =1,$field_index =1 , $mf_post_values = array(),$only = FALSE ){
