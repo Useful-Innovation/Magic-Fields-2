@@ -3,7 +3,7 @@
 Plugin Name: Magic Fields
 Plugin URI: http://magicfields.org
 Description: Create custom fields for your post types
-Version: 2.2.2
+Version: 2.3
 Author:  Hunk and Gnuget
 Author URI: http://magicfields.org
 License: GPL2
@@ -153,6 +153,17 @@ load_plugin_textdomain('magic_fields', '/'.PLUGINDIR.'/'.dirname(plugin_basename
    * Magic Fields dispatcher
    */
   function mf_dispatcher() {
+
+    //is user loged?
+    if ( !is_user_logged_in() ) {
+      die;
+    }
+
+    //same capabilities for the menu
+    if (!current_user_can('activate_plugins') ) {
+      die;
+    }
+
     $section = "mf_dashboard";
     $action = "main";
 
@@ -164,6 +175,20 @@ load_plugin_textdomain('magic_fields', '/'.PLUGINDIR.'/'.dirname(plugin_basename
     //Action
     if( !empty( $_GET['mf_action'] ) ) {
       $action = urlencode( $_GET['mf_action'] );
+    }
+
+    //check only mf_section has prefix mf    
+    if ( !(strpos($section, "mf_") === 0) ) {
+      die;
+    }
+
+    //exist class
+    if (!class_exists($section)) {
+      die;
+    }
+
+    if (!method_exists($section,$action)) {
+      die;
     }
 
     $tmp = new $section();
@@ -237,7 +262,6 @@ load_plugin_textdomain('magic_fields', '/'.PLUGINDIR.'/'.dirname(plugin_basename
       if( strstr( $_SERVER['REQUEST_URI'], 'post-new.php' ) !== FALSE  || strstr( $_SERVER['REQUEST_URI'],  'wp-admin/post.php') !== FALSE ) {
         /* Load JS and CSS for post page */
         $css_js = new mf_post();
-        $css_js->check_exist_visual_editor();
         $css_js->load_js_css_base();
         $css_js->load_js_css_fields();
         $css_js->general_option_multiline();

@@ -232,6 +232,14 @@ class mf_posttype extends mf_admin {
           'name' => 'mf_posttype[option][show_in_nav_menus]',
           'value' => 1,
           'description' => __( 'Whether post_type is available for selection in navigation menus.', $mf_domain )
+        ),
+        'menu_icon' => array(
+          'id' => 'posttype-menu-icon',
+          'type' => 'text',
+          'label' => __( 'Menu icon', $mf_domain ),
+          'name' => 'mf_posttype[option][menu_icon]',
+          'value' => "",
+          'description' => __( '(WP 3.8+) If \'dashicons-...\', a Dashicon is shown from the collection at http://melchoyce.github.io/dashicons/. For example, the default "gear" symbol could be explicitly specified with \'dashicons-admin-generic\'.', $mf_domain )
         )
       ),
       'label' => array(
@@ -731,19 +739,16 @@ class mf_posttype extends mf_admin {
       $post_type = $_GET['post_type'];
 
       if( $post_type ){
-        $sql = sprintf(
-          "DELETE FROM " . MF_TABLE_POSTTYPES .
-          " WHERE type = '%s'",
-          $post_type
-        );
+
+        $sql = $wpdb->prepare( "DELETE FROM ".MF_TABLE_POSTTYPES." WHERE type = '%s'",$post_type );
         $wpdb->query($sql);
         
         //delete all groups of post_type
-        $sql_fields = sprintf("DELETE FROM %s WHERE post_type = '%s'",MF_TABLE_CUSTOM_GROUPS,$post_type);
+        $sql_fields = $wpdb->prepare( "DELETE FROM ".MF_TABLE_CUSTOM_GROUPS." WHERE post_type = '%s'",$post_type );
         $wpdb->query($sql_fields);
         
         //delete field of post_type
-        $sql_fields = sprintf("DELETE FROM %s WHERE post_type = '%s'",MF_TABLE_CUSTOM_FIELDS,$post_type);
+        $sql_fields = $wpdb->prepare( "DELETE FROM ".MF_TABLE_CUSTOM_FIELDS." WHERE post_type = '%s'",$post_type );
         $wpdb->query($sql_fields);
         
         $this->mf_redirect(null,null,array('message' => 'success'));
