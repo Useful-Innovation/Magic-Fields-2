@@ -71,10 +71,15 @@ label > span { float:left; }
   padding-right: 5px;
   height: 21px;
 }
+
+/* Removed by GoBrave */
+
+/*
 .mf-group-wrapper .mf_duplicate_group:hover .mf_toolbox { 
   background-color: #FAFAFA;
   border-top-color: #F2F2F2; 
 }
+*/
 .mf_group .mf_toolbox_controls { 
   float: right;
   overflow: hidden;

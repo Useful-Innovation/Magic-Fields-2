@@ -41,7 +41,12 @@ div.options_label input,div.options input{ width: 250px;}
 /** Sortable Post Type **/
 .mf-order-icon { cursor:move; }
 .mf-sortable-placeholder { height: 1.2em; line-height:1.2em; display:table-row } 
+
+/* Removed by GoBrave */
+
+/*
 .ui-sortable-helper  { border: 1px solid #DFDFDF; background: #FFF; }
+*/
 .mf-ajax-loading { width: 16px; height: 16px; background-image:url('../images/ajax-loader.gif'); display:none; } 
 
 /** required span **/
@@ -105,4 +110,302 @@ div.mf_form_right div.categorydiv div.tabs-panel { height: auto; margin-top: 4px
 .wp_themeSkin.mceEditor {
   display:block;
   clear:both;
+}
+
+
+
+
+
+/* Changes by GoBrave */
+
+#mf-gen-cont {
+  margin: 20px 20px 20px 0px;
+  max-width: 960px;
+}
+
+#mf-gen-cont input:focus, 
+#mf-gen-cont select:focus {
+  box-shadow: 0 0 3px #21759B;
+  border-color: #21759B;
+}
+
+#mf-gen-cont input[type="checkbox"]:focus {
+  background: #21759B;
+  outline: 1px solid #21759B;
+}
+
+#mf-gen-cont #posttype .input.text label {
+  display: block;
+  cursor: pointer;
+  width: 200px;
+}
+
+#mf-gen-cont .input.text label {
+  cursor: pointer;
+  width: 75px;
+  display: inline-block;
+}
+
+#mf-gen-cont .input.checkboxes input {
+  margin-right: 5px;
+}
+
+#mf-gen-cont .input span {
+  font-size: 10px;
+  color: #616161;
+  font-style: italic;
+}
+
+#mf-gen-cont .input.text input {
+  padding: 3px;
+  color: #333333;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#mf-gen-cont div#posttype {
+  background-color: #ECECEC;
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#mf-gen-cont div.input {
+  margin: 5px 0px 5px 0px;
+}
+
+#mf-gen-cont h1, #mf-gen-cont h2, #mf-gen-cont h3 {
+  margin-top: 0px;
+}
+
+#mf-gen-cont div.submit input, 
+#mf-gen-cont div.addgroupbutton input {
+  padding: 10px;
+  margin: 10px;
+}
+
+#mf-gen-cont div#hidden {
+  display: none;
+}
+
+#mf-gen-cont div.pt_group {
+  background-color: #D6D6D6;
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+#mf-gen-cont div.pt_field {
+  background-color: #FFFFFF;
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+#mf-gen-cont .removefield, 
+#mf-gen-cont .removegroup {
+  float: right;
+  cursor: pointer;
+  color: #21759B;
+}
+
+#mf-gen-cont div.addgroupbutton input {
+  margin-left: 50px;
+}
+
+#mf-gen-cont input.addfield {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+#mf-gen-cont #snippets {
+  float: right;
+  width: 160px;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#mf-gen-cont #snippets ul {
+  list-style: none;
+  width: 160px;
+}
+
+#mf-gen-cont #snippets ul li {
+  float: left;
+  width: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+#mf-gen-cont #snippets ul li a, 
+#mf-gen-cont #snippets ul li span {
+  display: block;
+  width: 66px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 3px;
+  margin: 1px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+#mf-gen-cont #snippets ul li a:hover, 
+#mf-gen-cont #snippets ul li span:hover {
+  background: white;
+}
+
+body.post-php .postbox .mf_group .mf-field:hover, 
+body.post-new-php .postbox .mf_group .mf-field:hover {
+  background: #f0f0f0;
+}
+
+body.post-php .postbox .mf_toolbox, 
+body.post-new-php .postbox .mf_toolbox {
+  cursor: default;
+  background-color: #FFF;
+  height: 34px;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+body.post-php .postbox .mf_toolbox .mf-counter, 
+body.post-php .postbox .mf_toolbox .sortable_mf, 
+body.post-new-php .postbox .mf_toolbox .mf-counter, 
+body.post-new-php .postbox .mf_toolbox .sortable_mf {
+  height: 34px;
+  width: 34px;
+  margin: 0px 2px 0 2px;
+  color: black;
+}
+
+body.post-php .postbox .mf_toolbox .sortable_mf, 
+body.post-new-php .postbox .mf_toolbox .sortable_mf {
+  background: url("../images/order.png") no-repeat center center;
+  position: relative;
+  margin-left: -80px;
+  margin-right: 10px;
+}
+
+body.post-php .postbox .mf_toolbox .mf-counter, 
+body.post-new-php .postbox .mf_toolbox .mf-counter {
+  cursor: default;
+  background: none;
+  border-left: 1px solid #ebebeb;
+  padding-left: 3px;
+  margin-left: 46px;
+  color: #666;
+  line-height: 36px;
+  font-size: 16px;
+}
+
+body.post-php .postbox .mf_tip, 
+body.post-new-php .postbox .mf_tip {
+  font-size: 12px;
+  padding-left: 18px;
+  padding-top: 1px;
+}
+
+body.post-php .postbox .text_field_mf input, 
+body.post-php .postbox .text_field_mf .checkbox_mf, 
+body.post-new-php .postbox .text_field_mf input, 
+body.post-new-php .postbox .text_field_mf .checkbox_mf {
+  margin-top: 0px;
+}
+
+body.post-php .postbox .mf_toolbox_controls, 
+body.post-new-php .postbox .mf_toolbox_controls {
+  margin-top: 11px;
+}
+
+body.post-php .postbox .mf_toolbox_controls a, 
+body.post-new-php .postbox .mf_toolbox_controls a {
+  font-size: 12px;
+  margin-right: 10px;
+  text-transform: lowercase;
+}
+
+body.post-php .postbox .mf_toolbox_controls a span, 
+body.post-new-php .postbox .mf_toolbox_controls a span {
+  margin-right: 1px;
+  text-transform: none;
+}
+
+body.post-php #postbox-container-1 .mf_toolbox_controls, 
+body.post-new-php #postbox-container-1 .mf_toolbox_controls {
+  width: 60%;
+  margin-top: 3px;
+}
+
+body.post-php #postbox-container-1 .mf-counter, 
+body.post-new-php #postbox-container-1 .mf-counter {
+  border-right: 1px solid #ebebeb;
+  padding-right: 3px;
+}
+
+body.post-php #postbox-container-1 .sortable_mf, 
+body.post-new-php #postbox-container-1 .sortable_mf {
+  margin-left: -83px;
+}
+
+
+
+body.post-php .postbox .mf_duplicate_group + .mf_duplicate_group {
+  margin-top: 20px;
+}
+
+body.post-php .postbox .mf_duplicate_group .mf_toolbox:nth-child(1) {
+  background: #F8F8F8;
+  z-index: 100;
+  position: relative;
+  border-top: 0;
+  background: #ffffff;
+}
+
+body.post-php .postbox .mf_duplicate_group .mf_toolbox:last-child {
+  border-bottom: 0;
+}
+
+body.post-php .mf-group-wrapper {
+  border: none;
+  background: #FFF;
+}
+body.post-php .postbox .mf_duplicate_group .mf_toolbox .mf-counter{
+  margin-left: 0;
+  border-left: none;
+}
+
+body.post-php .mf-group-wrapper .mf_group {
+  border: 1px solid #eaeaea;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+body.post-php .postbox .mf_group .mf-field:hover, 
+body.post-new-php .postbox .mf_group .mf-field:hover {
+  background: transparent;
+}
+
+body.post-php .mce-tinymce.mce-container.mce-panel{
+  border: 1px solid #eaeaea;
+}
+
+body.post-php .mf-group-wrapper .mf-field{
+  border-top: 0;
+  background: none;
+}
+
+body.post-php .wp-media-buttons{
+  margin-left: 10px
+}
+
+.file_preview{
+  min-width: 120px;
 }

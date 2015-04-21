@@ -7,12 +7,15 @@ jQuery.mf_bind('add',function(){
     });
   }
 });
+
 jQuery.mf_bind('before_sort', function(){
   if('undefined' != typeof tinyMCEPreInit){
     jQuery("#"+sort_group_id+" .multiline_custom_field .pre_editor").each( function(){
       var editor_text = jQuery(this).attr('id');
+      var test = $(this);
       if(tinyMCE.get(editor_text)){
         tinyMCE.execCommand(mf_js.mf_mceRemoveString, false, editor_text);
+        console.log(test);
         jQuery('#'+editor_text).addClass('temp_remove_editor');
       }
     });
