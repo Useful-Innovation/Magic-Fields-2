@@ -26,7 +26,7 @@ $info = wp_get_attachment_image_src($image_id,'original');
 $field_id = preg_replace('/thumb_/','',$_POST['field_id']);
 
 if( count($info)){
-  $image_thumb = PHPTHUMB.'?&w=150&h=120&src='.$info[0];
+  $image_thumb = $info[0];
   $data = array('image' => $image_thumb,'field_id' => $field_id,'image_value' => $image_id,'image_path' => $info[0]);
   echo json_encode($data);
 }
