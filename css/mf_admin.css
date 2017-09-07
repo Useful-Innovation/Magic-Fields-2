@@ -409,3 +409,7 @@ body.post-php .wp-media-buttons{
 .file_preview{
   min-width: 120px;
 }
+
+.mf-field-ui .image_photo img {
+  max-width: 150px;
+}
