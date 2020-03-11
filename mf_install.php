@@ -1,4 +1,7 @@
 <?php
+
+use mf_settings;
+
 /**
  * This file content the routines for install/activate  uninstall/deactivate Magic Fields
  */
@@ -103,6 +106,13 @@ class mf_install
         }
         if ($version === false) {
             update_option(MF_DB_VERSION_KEY, MF_DB_VERSION);
+            $options = [
+                'hide_visual_editor' => 0,
+                'dont_remove_tags'   => 1,
+                'hide_post_panel'    => 0,
+                'hide_page_panel'    => 0,
+            ];
+            mf_settings::update($options);
         }
 
         if ($version < MF_DB_VERSION) {
