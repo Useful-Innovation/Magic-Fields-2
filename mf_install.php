@@ -1,7 +1,5 @@
 <?php
 
-use mf_settings;
-
 /**
  * This file content the routines for install/activate  uninstall/deactivate Magic Fields
  */
